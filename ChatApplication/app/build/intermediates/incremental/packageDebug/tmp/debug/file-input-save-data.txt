@@ -1,0 +1,7 @@
+#Internal package file, do not edit.
+#Mon Mar 04 20:46:59 EST 2019
+0.baseType=DIRECTORY
+0.base=/Users/Logic/Documents/Projects/GitHub/android-chat-frontend/ChatApplication/app/build/intermediates/transforms/dexMerger/debug/0
+0.path=classes.dex
+0.set=DEX
+count=1

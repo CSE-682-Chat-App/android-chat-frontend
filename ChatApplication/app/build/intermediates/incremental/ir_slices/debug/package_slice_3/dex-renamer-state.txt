@@ -1,0 +1,4 @@
+#Mon Mar 04 19:42:42 EST 2019
+base.0=/Users/Logic/AndroidStudioProjects/ChatApplication/app/build/intermediates/transforms/dexMerger/debug/3
+path.0=classes.dex
+renamed.0=classes.dex
