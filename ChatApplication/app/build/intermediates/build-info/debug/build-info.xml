@@ -6,13 +6,13 @@
     density="xxhdpi"
     format="10"
     plugin-version="3.2.1"
-    timestamp="1551749353230"
+    timestamp="1551746553498"
     token="-6067147417211405500"
     verifier="FULL_BUILD_REQUESTED" >
 
     <task
         name="javac"
-        duration="1543" />
+        duration="2282" />
     <task
         name="instant-run-dex"
         duration="0" />
@@ -21,151 +21,85 @@
         duration="124" />
     <task
         name="verifier"
-        duration="212" />
+        duration="83" />
 
     <artifact
-        location="/Users/Logic/Documents/Projects/GitHub/go-chat-backend/ChatApplication/app/build/intermediates/split-apk/debug/dep/dependencies.apk"
+        location="/Users/Logic/AndroidStudioProjects/ChatApplication/app/build/intermediates/split-apk/debug/dep/dependencies.apk"
         type="SPLIT" />
-    <artifact
-        location="/Users/Logic/Documents/Projects/GitHub/go-chat-backend/ChatApplication/app/build/intermediates/split-apk/debug/slices/slice_1.apk"
-        type="SPLIT" />
-    <artifact
-        location="/Users/Logic/Documents/Projects/GitHub/go-chat-backend/ChatApplication/app/build/intermediates/split-apk/debug/slices/slice_0.apk"
-        type="SPLIT" />
-    <artifact
-        location="/Users/Logic/Documents/Projects/GitHub/go-chat-backend/ChatApplication/app/build/intermediates/split-apk/debug/slices/slice_2.apk"
-        type="SPLIT" />
-    <artifact
-        location="/Users/Logic/Documents/Projects/GitHub/go-chat-backend/ChatApplication/app/build/intermediates/split-apk/debug/slices/slice_4.apk"
-        type="SPLIT" />
-    <artifact
-        location="/Users/Logic/Documents/Projects/GitHub/go-chat-backend/ChatApplication/app/build/intermediates/split-apk/debug/slices/slice_3.apk"
-        type="SPLIT" />
-    <artifact
-        location="/Users/Logic/Documents/Projects/GitHub/go-chat-backend/ChatApplication/app/build/intermediates/split-apk/debug/slices/slice_5.apk"
-        type="SPLIT" />
-    <artifact
-        location="/Users/Logic/Documents/Projects/GitHub/go-chat-backend/ChatApplication/app/build/intermediates/split-apk/debug/slices/slice_6.apk"
-        type="SPLIT" />
-    <artifact
-        location="/Users/Logic/Documents/Projects/GitHub/go-chat-backend/ChatApplication/app/build/intermediates/split-apk/debug/slices/slice_7.apk"
-        type="SPLIT" />
-    <artifact
-        location="/Users/Logic/Documents/Projects/GitHub/go-chat-backend/ChatApplication/app/build/intermediates/split-apk/debug/slices/slice_8.apk"
-        type="SPLIT" />
-    <artifact
-        location="/Users/Logic/Documents/Projects/GitHub/go-chat-backend/ChatApplication/app/build/intermediates/split-apk/debug/slices/slice_9.apk"
-        type="SPLIT" />
-    <artifact
-        location="/Users/Logic/Documents/Projects/GitHub/go-chat-backend/ChatApplication/app/build/intermediates/instant-run-apk/debug/app-debug.apk"
-        type="SPLIT_MAIN" />
     <artifact
         location="/Users/Logic/AndroidStudioProjects/ChatApplication/app/build/intermediates/split-apk/debug/slices/slice_1.apk"
-        type="SPLIT" />
-    <artifact
-        location="/Users/Logic/AndroidStudioProjects/ChatApplication/app/build/intermediates/split-apk/debug/slices/slice_8.apk"
-        type="SPLIT" />
-    <artifact
-        location="/Users/Logic/AndroidStudioProjects/ChatApplication/app/build/intermediates/split-apk/debug/slices/slice_9.apk"
-        type="SPLIT" />
-    <artifact
-        location="/Users/Logic/AndroidStudioProjects/ChatApplication/app/build/intermediates/split-apk/debug/slices/slice_3.apk"
-        type="SPLIT" />
-    <artifact
-        location="/Users/Logic/AndroidStudioProjects/ChatApplication/app/build/intermediates/split-apk/debug/slices/slice_5.apk"
-        type="SPLIT" />
-    <artifact
-        location="/Users/Logic/AndroidStudioProjects/ChatApplication/app/build/intermediates/split-apk/debug/slices/slice_7.apk"
-        type="SPLIT" />
-    <artifact
-        location="/Users/Logic/AndroidStudioProjects/ChatApplication/app/build/intermediates/split-apk/debug/slices/slice_2.apk"
-        type="SPLIT" />
-    <artifact
-        location="/Users/Logic/AndroidStudioProjects/ChatApplication/app/build/intermediates/split-apk/debug/dep/dependencies.apk"
         type="SPLIT" />
     <artifact
         location="/Users/Logic/AndroidStudioProjects/ChatApplication/app/build/intermediates/split-apk/debug/slices/slice_0.apk"
         type="SPLIT" />
     <artifact
-        location="/Users/Logic/AndroidStudioProjects/ChatApplication/app/build/intermediates/split-apk/debug/slices/slice_6.apk"
+        location="/Users/Logic/AndroidStudioProjects/ChatApplication/app/build/intermediates/split-apk/debug/slices/slice_2.apk"
         type="SPLIT" />
     <artifact
         location="/Users/Logic/AndroidStudioProjects/ChatApplication/app/build/intermediates/split-apk/debug/slices/slice_4.apk"
         type="SPLIT" />
+    <artifact
+        location="/Users/Logic/AndroidStudioProjects/ChatApplication/app/build/intermediates/split-apk/debug/slices/slice_5.apk"
+        type="SPLIT" />
+    <artifact
+        location="/Users/Logic/AndroidStudioProjects/ChatApplication/app/build/intermediates/split-apk/debug/slices/slice_3.apk"
+        type="SPLIT" />
+    <artifact
+        location="/Users/Logic/AndroidStudioProjects/ChatApplication/app/build/intermediates/split-apk/debug/slices/slice_6.apk"
+        type="SPLIT" />
+    <artifact
+        location="/Users/Logic/AndroidStudioProjects/ChatApplication/app/build/intermediates/split-apk/debug/slices/slice_8.apk"
+        type="SPLIT" />
+    <artifact
+        location="/Users/Logic/AndroidStudioProjects/ChatApplication/app/build/intermediates/split-apk/debug/slices/slice_7.apk"
+        type="SPLIT" />
+    <artifact
+        location="/Users/Logic/AndroidStudioProjects/ChatApplication/app/build/intermediates/split-apk/debug/slices/slice_9.apk"
+        type="SPLIT" />
+    <artifact
+        location="/Users/Logic/AndroidStudioProjects/ChatApplication/app/build/intermediates/instant-run-apk/debug/app-debug.apk"
+        type="SPLIT_MAIN" />
 
     <build
         build-mode="FULL"
-        timestamp="1551749353230"
+        timestamp="1551746553498"
         verifier="FULL_BUILD_REQUESTED" >
         <artifact
-            location="/Users/Logic/Documents/Projects/GitHub/go-chat-backend/ChatApplication/app/build/intermediates/split-apk/debug/dep/dependencies.apk"
+            location="/Users/Logic/AndroidStudioProjects/ChatApplication/app/build/intermediates/split-apk/debug/dep/dependencies.apk"
             type="SPLIT" />
-        <artifact
-            location="/Users/Logic/Documents/Projects/GitHub/go-chat-backend/ChatApplication/app/build/intermediates/split-apk/debug/slices/slice_1.apk"
-            type="SPLIT" />
-        <artifact
-            location="/Users/Logic/Documents/Projects/GitHub/go-chat-backend/ChatApplication/app/build/intermediates/split-apk/debug/slices/slice_0.apk"
-            type="SPLIT" />
-        <artifact
-            location="/Users/Logic/Documents/Projects/GitHub/go-chat-backend/ChatApplication/app/build/intermediates/split-apk/debug/slices/slice_2.apk"
-            type="SPLIT" />
-        <artifact
-            location="/Users/Logic/Documents/Projects/GitHub/go-chat-backend/ChatApplication/app/build/intermediates/split-apk/debug/slices/slice_4.apk"
-            type="SPLIT" />
-        <artifact
-            location="/Users/Logic/Documents/Projects/GitHub/go-chat-backend/ChatApplication/app/build/intermediates/split-apk/debug/slices/slice_3.apk"
-            type="SPLIT" />
-        <artifact
-            location="/Users/Logic/Documents/Projects/GitHub/go-chat-backend/ChatApplication/app/build/intermediates/split-apk/debug/slices/slice_5.apk"
-            type="SPLIT" />
-        <artifact
-            location="/Users/Logic/Documents/Projects/GitHub/go-chat-backend/ChatApplication/app/build/intermediates/split-apk/debug/slices/slice_6.apk"
-            type="SPLIT" />
-        <artifact
-            location="/Users/Logic/Documents/Projects/GitHub/go-chat-backend/ChatApplication/app/build/intermediates/split-apk/debug/slices/slice_7.apk"
-            type="SPLIT" />
-        <artifact
-            location="/Users/Logic/Documents/Projects/GitHub/go-chat-backend/ChatApplication/app/build/intermediates/split-apk/debug/slices/slice_8.apk"
-            type="SPLIT" />
-        <artifact
-            location="/Users/Logic/Documents/Projects/GitHub/go-chat-backend/ChatApplication/app/build/intermediates/split-apk/debug/slices/slice_9.apk"
-            type="SPLIT" />
-        <artifact
-            location="/Users/Logic/Documents/Projects/GitHub/go-chat-backend/ChatApplication/app/build/intermediates/instant-run-apk/debug/app-debug.apk"
-            type="SPLIT_MAIN" />
         <artifact
             location="/Users/Logic/AndroidStudioProjects/ChatApplication/app/build/intermediates/split-apk/debug/slices/slice_1.apk"
-            type="SPLIT" />
-        <artifact
-            location="/Users/Logic/AndroidStudioProjects/ChatApplication/app/build/intermediates/split-apk/debug/slices/slice_8.apk"
-            type="SPLIT" />
-        <artifact
-            location="/Users/Logic/AndroidStudioProjects/ChatApplication/app/build/intermediates/split-apk/debug/slices/slice_9.apk"
-            type="SPLIT" />
-        <artifact
-            location="/Users/Logic/AndroidStudioProjects/ChatApplication/app/build/intermediates/split-apk/debug/slices/slice_3.apk"
-            type="SPLIT" />
-        <artifact
-            location="/Users/Logic/AndroidStudioProjects/ChatApplication/app/build/intermediates/split-apk/debug/slices/slice_5.apk"
-            type="SPLIT" />
-        <artifact
-            location="/Users/Logic/AndroidStudioProjects/ChatApplication/app/build/intermediates/split-apk/debug/slices/slice_7.apk"
-            type="SPLIT" />
-        <artifact
-            location="/Users/Logic/AndroidStudioProjects/ChatApplication/app/build/intermediates/split-apk/debug/slices/slice_2.apk"
-            type="SPLIT" />
-        <artifact
-            location="/Users/Logic/AndroidStudioProjects/ChatApplication/app/build/intermediates/split-apk/debug/dep/dependencies.apk"
             type="SPLIT" />
         <artifact
             location="/Users/Logic/AndroidStudioProjects/ChatApplication/app/build/intermediates/split-apk/debug/slices/slice_0.apk"
             type="SPLIT" />
         <artifact
-            location="/Users/Logic/AndroidStudioProjects/ChatApplication/app/build/intermediates/split-apk/debug/slices/slice_6.apk"
+            location="/Users/Logic/AndroidStudioProjects/ChatApplication/app/build/intermediates/split-apk/debug/slices/slice_2.apk"
             type="SPLIT" />
         <artifact
             location="/Users/Logic/AndroidStudioProjects/ChatApplication/app/build/intermediates/split-apk/debug/slices/slice_4.apk"
             type="SPLIT" />
+        <artifact
+            location="/Users/Logic/AndroidStudioProjects/ChatApplication/app/build/intermediates/split-apk/debug/slices/slice_5.apk"
+            type="SPLIT" />
+        <artifact
+            location="/Users/Logic/AndroidStudioProjects/ChatApplication/app/build/intermediates/split-apk/debug/slices/slice_3.apk"
+            type="SPLIT" />
+        <artifact
+            location="/Users/Logic/AndroidStudioProjects/ChatApplication/app/build/intermediates/split-apk/debug/slices/slice_6.apk"
+            type="SPLIT" />
+        <artifact
+            location="/Users/Logic/AndroidStudioProjects/ChatApplication/app/build/intermediates/split-apk/debug/slices/slice_8.apk"
+            type="SPLIT" />
+        <artifact
+            location="/Users/Logic/AndroidStudioProjects/ChatApplication/app/build/intermediates/split-apk/debug/slices/slice_7.apk"
+            type="SPLIT" />
+        <artifact
+            location="/Users/Logic/AndroidStudioProjects/ChatApplication/app/build/intermediates/split-apk/debug/slices/slice_9.apk"
+            type="SPLIT" />
+        <artifact
+            location="/Users/Logic/AndroidStudioProjects/ChatApplication/app/build/intermediates/instant-run-apk/debug/app-debug.apk"
+            type="SPLIT_MAIN" />
     </build>
 
 </instant-run>
