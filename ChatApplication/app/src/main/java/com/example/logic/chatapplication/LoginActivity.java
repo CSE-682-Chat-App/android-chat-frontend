@@ -7,6 +7,7 @@ import android.view.View;
 import android.widget.Button;
 import android.widget.EditText;
 import android.widget.TextView;
+import android.widget.Toast;
 
 public class LoginActivity extends AppCompatActivity {
     Button login, signup;
@@ -32,4 +33,13 @@ public class LoginActivity extends AppCompatActivity {
             }
         });
     }
+
+    public void Login(View view) {
+        if (user.getText().toString().matches("") || pwd.getText().toString().matches("")) {
+            Toast.makeText(LoginActivity.this, "Enter both Email and Password",
+                    Toast.LENGTH_SHORT).show();
+        }
+    }
+
+
 }
