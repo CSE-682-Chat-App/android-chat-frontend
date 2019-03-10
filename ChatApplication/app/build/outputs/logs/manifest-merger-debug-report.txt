@@ -1,158 +1,158 @@
 -- Merging decision tree log ---
 manifest
-ADDED from /Users/Logic/Documents/Projects/GitHub/android-chat-frontend/ChatApplication/app/src/main/AndroidManifest.xml:2:1-22:12
-INJECTED from /Users/Logic/Documents/Projects/GitHub/android-chat-frontend/ChatApplication/app/src/main/AndroidManifest.xml:2:1-22:12
-INJECTED from /Users/Logic/Documents/Projects/GitHub/android-chat-frontend/ChatApplication/app/src/main/AndroidManifest.xml:2:1-22:12
-INJECTED from /Users/Logic/Documents/Projects/GitHub/android-chat-frontend/ChatApplication/app/src/main/AndroidManifest.xml:2:1-22:12
-MERGED from [com.android.support:appcompat-v7:28.0.0] /Users/Logic/.gradle/caches/transforms-1/files-1.1/appcompat-v7-28.0.0.aar/0300cfee4ec2229699c89bb28b84adc2/AndroidManifest.xml:17:1-22:12
-MERGED from [com.android.support.constraint:constraint-layout:1.1.3] /Users/Logic/.gradle/caches/transforms-1/files-1.1/constraint-layout-1.1.3.aar/8df5edd1542514c47199ce9ec4de0360/AndroidManifest.xml:2:1-11:12
-MERGED from [com.android.support:support-fragment:28.0.0] /Users/Logic/.gradle/caches/transforms-1/files-1.1/support-fragment-28.0.0.aar/4263445d062326a11c7b0f69c0f2dbb3/AndroidManifest.xml:17:1-22:12
-MERGED from [com.android.support:animated-vector-drawable:28.0.0] /Users/Logic/.gradle/caches/transforms-1/files-1.1/animated-vector-drawable-28.0.0.aar/b1ce93552800c844183cdc9ff24eeb5b/AndroidManifest.xml:17:1-22:12
-MERGED from [com.android.support:support-core-ui:28.0.0] /Users/Logic/.gradle/caches/transforms-1/files-1.1/support-core-ui-28.0.0.aar/152cdfdc86cb9d2c219d5c07e59c5b3f/AndroidManifest.xml:17:1-22:12
-MERGED from [com.android.support:support-core-utils:28.0.0] /Users/Logic/.gradle/caches/transforms-1/files-1.1/support-core-utils-28.0.0.aar/75c93ae9b05240501fa3388c00cfe529/AndroidManifest.xml:17:1-22:12
-MERGED from [com.android.support:support-vector-drawable:28.0.0] /Users/Logic/.gradle/caches/transforms-1/files-1.1/support-vector-drawable-28.0.0.aar/d2bce11e92e1c18533db774505bdf604/AndroidManifest.xml:17:1-22:12
-MERGED from [com.android.support:loader:28.0.0] /Users/Logic/.gradle/caches/transforms-1/files-1.1/loader-28.0.0.aar/d1fe2bf59619037ae9500871fea7579a/AndroidManifest.xml:17:1-22:12
-MERGED from [com.android.support:viewpager:28.0.0] /Users/Logic/.gradle/caches/transforms-1/files-1.1/viewpager-28.0.0.aar/01532de274de37b86468c0dfddf9d0a7/AndroidManifest.xml:17:1-22:12
-MERGED from [com.android.support:coordinatorlayout:28.0.0] /Users/Logic/.gradle/caches/transforms-1/files-1.1/coordinatorlayout-28.0.0.aar/45c9c11e33d79302ffd8b807eb929e3c/AndroidManifest.xml:17:1-22:12
-MERGED from [com.android.support:drawerlayout:28.0.0] /Users/Logic/.gradle/caches/transforms-1/files-1.1/drawerlayout-28.0.0.aar/dc748af1aa801a1314d8ef78477dc97b/AndroidManifest.xml:17:1-22:12
-MERGED from [com.android.support:slidingpanelayout:28.0.0] /Users/Logic/.gradle/caches/transforms-1/files-1.1/slidingpanelayout-28.0.0.aar/efa498f039ca2d3c6ee52df6267b5591/AndroidManifest.xml:17:1-22:12
-MERGED from [com.android.support:customview:28.0.0] /Users/Logic/.gradle/caches/transforms-1/files-1.1/customview-28.0.0.aar/446dcf71773bd2ea57fb69577ffac6ac/AndroidManifest.xml:17:1-22:12
-MERGED from [com.android.support:swiperefreshlayout:28.0.0] /Users/Logic/.gradle/caches/transforms-1/files-1.1/swiperefreshlayout-28.0.0.aar/a0f2d9ac59d0ecd331b9fbb5405fd5dd/AndroidManifest.xml:17:1-22:12
-MERGED from [com.android.support:asynclayoutinflater:28.0.0] /Users/Logic/.gradle/caches/transforms-1/files-1.1/asynclayoutinflater-28.0.0.aar/6affa267ee4d58e18d25e1c91aa988c4/AndroidManifest.xml:17:1-22:12
-MERGED from [com.android.support:support-compat:28.0.0] /Users/Logic/.gradle/caches/transforms-1/files-1.1/support-compat-28.0.0.aar/fb3f84424559cd6db034b94aaa7aa23f/AndroidManifest.xml:17:1-24:12
-MERGED from [com.android.support:versionedparcelable:28.0.0] /Users/Logic/.gradle/caches/transforms-1/files-1.1/versionedparcelable-28.0.0.aar/d38c85f5907a5e95486b98803a908270/AndroidManifest.xml:17:1-25:12
-MERGED from [com.android.support:cursoradapter:28.0.0] /Users/Logic/.gradle/caches/transforms-1/files-1.1/cursoradapter-28.0.0.aar/6d41643db2c62d041638f4b982c560ce/AndroidManifest.xml:17:1-22:12
-MERGED from [android.arch.lifecycle:runtime:1.1.1] /Users/Logic/.gradle/caches/transforms-1/files-1.1/runtime-1.1.1.aar/038806590e3d84c5f1f9b200e580b093/AndroidManifest.xml:17:1-22:12
-MERGED from [com.android.support:documentfile:28.0.0] /Users/Logic/.gradle/caches/transforms-1/files-1.1/documentfile-28.0.0.aar/88a180f8b629795f5019bea431190f1b/AndroidManifest.xml:17:1-22:12
-MERGED from [com.android.support:localbroadcastmanager:28.0.0] /Users/Logic/.gradle/caches/transforms-1/files-1.1/localbroadcastmanager-28.0.0.aar/bea1d55c650e23911fa00d33402a1a87/AndroidManifest.xml:17:1-22:12
-MERGED from [com.android.support:print:28.0.0] /Users/Logic/.gradle/caches/transforms-1/files-1.1/print-28.0.0.aar/20dbef087046e2df300d950e199129fa/AndroidManifest.xml:17:1-22:12
-MERGED from [android.arch.lifecycle:viewmodel:1.1.1] /Users/Logic/.gradle/caches/transforms-1/files-1.1/viewmodel-1.1.1.aar/0000e212a9198bcacc4a8924dae6c7d9/AndroidManifest.xml:17:1-22:12
-MERGED from [android.arch.lifecycle:livedata:1.1.1] /Users/Logic/.gradle/caches/transforms-1/files-1.1/livedata-1.1.1.aar/3cef032f8e6a5ebdc039148a69b84295/AndroidManifest.xml:17:1-22:12
-MERGED from [android.arch.lifecycle:livedata-core:1.1.1] /Users/Logic/.gradle/caches/transforms-1/files-1.1/livedata-core-1.1.1.aar/80f8d3e2a9e879046d7e311dab5f607c/AndroidManifest.xml:17:1-22:12
-MERGED from [android.arch.core:runtime:1.1.1] /Users/Logic/.gradle/caches/transforms-1/files-1.1/runtime-1.1.1.aar/cb327daabfd8931c555f164f7114c928/AndroidManifest.xml:17:1-22:12
-MERGED from [com.android.support:interpolator:28.0.0] /Users/Logic/.gradle/caches/transforms-1/files-1.1/interpolator-28.0.0.aar/eaa0e6af433f67028766533409f1bc0b/AndroidManifest.xml:17:1-22:12
-INJECTED from /Users/Logic/Documents/Projects/GitHub/android-chat-frontend/ChatApplication/app/src/main/AndroidManifest.xml:2:1-22:12
-INJECTED from /Users/Logic/Documents/Projects/GitHub/android-chat-frontend/ChatApplication/app/src/main/AndroidManifest.xml:2:1-22:12
-INJECTED from /Users/Logic/Documents/Projects/GitHub/android-chat-frontend/ChatApplication/app/src/main/AndroidManifest.xml:2:1-22:12
+ADDED from /Users/pairin/Projects/android-chat-frontend/ChatApplication/app/src/main/AndroidManifest.xml:2:1-22:12
+INJECTED from /Users/pairin/Projects/android-chat-frontend/ChatApplication/app/src/main/AndroidManifest.xml:2:1-22:12
+INJECTED from /Users/pairin/Projects/android-chat-frontend/ChatApplication/app/src/main/AndroidManifest.xml:2:1-22:12
+INJECTED from /Users/pairin/Projects/android-chat-frontend/ChatApplication/app/src/main/AndroidManifest.xml:2:1-22:12
+MERGED from [com.android.support:appcompat-v7:28.0.0] /Users/pairin/.gradle/caches/transforms-1/files-1.1/appcompat-v7-28.0.0.aar/8e3a9260e47585f07678abc883fc213c/AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support.constraint:constraint-layout:1.1.3] /Users/pairin/.gradle/caches/transforms-1/files-1.1/constraint-layout-1.1.3.aar/61327f2433abf69f3f3090e47662df09/AndroidManifest.xml:2:1-11:12
+MERGED from [com.android.support:support-fragment:28.0.0] /Users/pairin/.gradle/caches/transforms-1/files-1.1/support-fragment-28.0.0.aar/32eeb6ded220d1b0d969ef909a0e09ac/AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:animated-vector-drawable:28.0.0] /Users/pairin/.gradle/caches/transforms-1/files-1.1/animated-vector-drawable-28.0.0.aar/19f7bfa40a5a17578c9de83f6095fe0a/AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:support-core-ui:28.0.0] /Users/pairin/.gradle/caches/transforms-1/files-1.1/support-core-ui-28.0.0.aar/d2a05b5cc53e45198bcc5592a10b9f6b/AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:support-core-utils:28.0.0] /Users/pairin/.gradle/caches/transforms-1/files-1.1/support-core-utils-28.0.0.aar/d14d1af7985abe55e6349c7e675b6ad3/AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:support-vector-drawable:28.0.0] /Users/pairin/.gradle/caches/transforms-1/files-1.1/support-vector-drawable-28.0.0.aar/f1e5aeeb38c7e0f93f862723fbd5630c/AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:loader:28.0.0] /Users/pairin/.gradle/caches/transforms-1/files-1.1/loader-28.0.0.aar/a244ea22482a23aa05de17a8e86f396c/AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:viewpager:28.0.0] /Users/pairin/.gradle/caches/transforms-1/files-1.1/viewpager-28.0.0.aar/2f1069c75d3105d317593d0574dd6f54/AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:coordinatorlayout:28.0.0] /Users/pairin/.gradle/caches/transforms-1/files-1.1/coordinatorlayout-28.0.0.aar/8932d5765ac774d5bbb68adc8003a7e2/AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:drawerlayout:28.0.0] /Users/pairin/.gradle/caches/transforms-1/files-1.1/drawerlayout-28.0.0.aar/17d774a98a9a64dfc32570b2a3978dca/AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:slidingpanelayout:28.0.0] /Users/pairin/.gradle/caches/transforms-1/files-1.1/slidingpanelayout-28.0.0.aar/03e49417192e7ce02ca17a5146b8d310/AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:customview:28.0.0] /Users/pairin/.gradle/caches/transforms-1/files-1.1/customview-28.0.0.aar/4a16937b4fa838b9e20b48f9170adac2/AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:swiperefreshlayout:28.0.0] /Users/pairin/.gradle/caches/transforms-1/files-1.1/swiperefreshlayout-28.0.0.aar/66ee6d2514822c3e00ef456b879f83f0/AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:asynclayoutinflater:28.0.0] /Users/pairin/.gradle/caches/transforms-1/files-1.1/asynclayoutinflater-28.0.0.aar/0a715a2d78afee89a8714144e29aa28d/AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:support-compat:28.0.0] /Users/pairin/.gradle/caches/transforms-1/files-1.1/support-compat-28.0.0.aar/738e2c9c8362170ba78b985ce358de53/AndroidManifest.xml:17:1-24:12
+MERGED from [com.android.support:versionedparcelable:28.0.0] /Users/pairin/.gradle/caches/transforms-1/files-1.1/versionedparcelable-28.0.0.aar/957cb3bccecdc4e4615920aaaaede9f9/AndroidManifest.xml:17:1-25:12
+MERGED from [com.android.support:cursoradapter:28.0.0] /Users/pairin/.gradle/caches/transforms-1/files-1.1/cursoradapter-28.0.0.aar/850afa0987e9be3f80e6fcec52ace5e2/AndroidManifest.xml:17:1-22:12
+MERGED from [android.arch.lifecycle:runtime:1.1.1] /Users/pairin/.gradle/caches/transforms-1/files-1.1/runtime-1.1.1.aar/d5eec37a0c1f9373e1294a9a9773f265/AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:documentfile:28.0.0] /Users/pairin/.gradle/caches/transforms-1/files-1.1/documentfile-28.0.0.aar/802de9592565dcf679828a12212e0140/AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:localbroadcastmanager:28.0.0] /Users/pairin/.gradle/caches/transforms-1/files-1.1/localbroadcastmanager-28.0.0.aar/cdd1f58ee3cbb434d7f32133ae80f23d/AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:print:28.0.0] /Users/pairin/.gradle/caches/transforms-1/files-1.1/print-28.0.0.aar/0f720d032da5f5e840112fa3c559a147/AndroidManifest.xml:17:1-22:12
+MERGED from [android.arch.lifecycle:viewmodel:1.1.1] /Users/pairin/.gradle/caches/transforms-1/files-1.1/viewmodel-1.1.1.aar/354a650b44365b85391eac81a1d3f0ae/AndroidManifest.xml:17:1-22:12
+MERGED from [android.arch.lifecycle:livedata:1.1.1] /Users/pairin/.gradle/caches/transforms-1/files-1.1/livedata-1.1.1.aar/2ee8acf9bf2532c5208d46bd7861967f/AndroidManifest.xml:17:1-22:12
+MERGED from [android.arch.lifecycle:livedata-core:1.1.1] /Users/pairin/.gradle/caches/transforms-1/files-1.1/livedata-core-1.1.1.aar/43eb10a5d129c7b78675e12eb3ccf7c2/AndroidManifest.xml:17:1-22:12
+MERGED from [android.arch.core:runtime:1.1.1] /Users/pairin/.gradle/caches/transforms-1/files-1.1/runtime-1.1.1.aar/eb239fbadc262a0ab0b922df66b2fde0/AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:interpolator:28.0.0] /Users/pairin/.gradle/caches/transforms-1/files-1.1/interpolator-28.0.0.aar/f7529c6e5e7c52021d26b24376e3c934/AndroidManifest.xml:17:1-22:12
+INJECTED from /Users/pairin/Projects/android-chat-frontend/ChatApplication/app/src/main/AndroidManifest.xml:2:1-22:12
+INJECTED from /Users/pairin/Projects/android-chat-frontend/ChatApplication/app/src/main/AndroidManifest.xml:2:1-22:12
+INJECTED from /Users/pairin/Projects/android-chat-frontend/ChatApplication/app/src/main/AndroidManifest.xml:2:1-22:12
 	package
-		ADDED from /Users/Logic/Documents/Projects/GitHub/android-chat-frontend/ChatApplication/app/src/main/AndroidManifest.xml:3:5-48
-		INJECTED from /Users/Logic/Documents/Projects/GitHub/android-chat-frontend/ChatApplication/app/src/main/AndroidManifest.xml
-		INJECTED from /Users/Logic/Documents/Projects/GitHub/android-chat-frontend/ChatApplication/app/src/main/AndroidManifest.xml
+		ADDED from /Users/pairin/Projects/android-chat-frontend/ChatApplication/app/src/main/AndroidManifest.xml:3:5-48
+		INJECTED from /Users/pairin/Projects/android-chat-frontend/ChatApplication/app/src/main/AndroidManifest.xml
+		INJECTED from /Users/pairin/Projects/android-chat-frontend/ChatApplication/app/src/main/AndroidManifest.xml
 	android:versionName
-		INJECTED from /Users/Logic/Documents/Projects/GitHub/android-chat-frontend/ChatApplication/app/src/main/AndroidManifest.xml
-		ADDED from /Users/Logic/Documents/Projects/GitHub/android-chat-frontend/ChatApplication/app/src/main/AndroidManifest.xml:2:1-22:12
-		INJECTED from /Users/Logic/Documents/Projects/GitHub/android-chat-frontend/ChatApplication/app/src/main/AndroidManifest.xml
+		INJECTED from /Users/pairin/Projects/android-chat-frontend/ChatApplication/app/src/main/AndroidManifest.xml
+		ADDED from /Users/pairin/Projects/android-chat-frontend/ChatApplication/app/src/main/AndroidManifest.xml:2:1-22:12
+		INJECTED from /Users/pairin/Projects/android-chat-frontend/ChatApplication/app/src/main/AndroidManifest.xml
 	android:versionCode
-		INJECTED from /Users/Logic/Documents/Projects/GitHub/android-chat-frontend/ChatApplication/app/src/main/AndroidManifest.xml
-		ADDED from /Users/Logic/Documents/Projects/GitHub/android-chat-frontend/ChatApplication/app/src/main/AndroidManifest.xml:2:1-22:12
-		INJECTED from /Users/Logic/Documents/Projects/GitHub/android-chat-frontend/ChatApplication/app/src/main/AndroidManifest.xml
+		INJECTED from /Users/pairin/Projects/android-chat-frontend/ChatApplication/app/src/main/AndroidManifest.xml
+		ADDED from /Users/pairin/Projects/android-chat-frontend/ChatApplication/app/src/main/AndroidManifest.xml:2:1-22:12
+		INJECTED from /Users/pairin/Projects/android-chat-frontend/ChatApplication/app/src/main/AndroidManifest.xml
 	xmlns:android
-		ADDED from /Users/Logic/Documents/Projects/GitHub/android-chat-frontend/ChatApplication/app/src/main/AndroidManifest.xml:2:11-69
+		ADDED from /Users/pairin/Projects/android-chat-frontend/ChatApplication/app/src/main/AndroidManifest.xml:2:11-69
 application
-ADDED from /Users/Logic/Documents/Projects/GitHub/android-chat-frontend/ChatApplication/app/src/main/AndroidManifest.xml:5:5-20:19
-MERGED from [com.android.support.constraint:constraint-layout:1.1.3] /Users/Logic/.gradle/caches/transforms-1/files-1.1/constraint-layout-1.1.3.aar/8df5edd1542514c47199ce9ec4de0360/AndroidManifest.xml:9:5-20
-MERGED from [com.android.support.constraint:constraint-layout:1.1.3] /Users/Logic/.gradle/caches/transforms-1/files-1.1/constraint-layout-1.1.3.aar/8df5edd1542514c47199ce9ec4de0360/AndroidManifest.xml:9:5-20
-MERGED from [com.android.support:support-compat:28.0.0] /Users/Logic/.gradle/caches/transforms-1/files-1.1/support-compat-28.0.0.aar/fb3f84424559cd6db034b94aaa7aa23f/AndroidManifest.xml:22:5-94
-MERGED from [com.android.support:support-compat:28.0.0] /Users/Logic/.gradle/caches/transforms-1/files-1.1/support-compat-28.0.0.aar/fb3f84424559cd6db034b94aaa7aa23f/AndroidManifest.xml:22:5-94
-MERGED from [com.android.support:versionedparcelable:28.0.0] /Users/Logic/.gradle/caches/transforms-1/files-1.1/versionedparcelable-28.0.0.aar/d38c85f5907a5e95486b98803a908270/AndroidManifest.xml:22:5-23:19
-MERGED from [com.android.support:versionedparcelable:28.0.0] /Users/Logic/.gradle/caches/transforms-1/files-1.1/versionedparcelable-28.0.0.aar/d38c85f5907a5e95486b98803a908270/AndroidManifest.xml:22:5-23:19
+ADDED from /Users/pairin/Projects/android-chat-frontend/ChatApplication/app/src/main/AndroidManifest.xml:5:5-20:19
+MERGED from [com.android.support.constraint:constraint-layout:1.1.3] /Users/pairin/.gradle/caches/transforms-1/files-1.1/constraint-layout-1.1.3.aar/61327f2433abf69f3f3090e47662df09/AndroidManifest.xml:9:5-20
+MERGED from [com.android.support.constraint:constraint-layout:1.1.3] /Users/pairin/.gradle/caches/transforms-1/files-1.1/constraint-layout-1.1.3.aar/61327f2433abf69f3f3090e47662df09/AndroidManifest.xml:9:5-20
+MERGED from [com.android.support:support-compat:28.0.0] /Users/pairin/.gradle/caches/transforms-1/files-1.1/support-compat-28.0.0.aar/738e2c9c8362170ba78b985ce358de53/AndroidManifest.xml:22:5-94
+MERGED from [com.android.support:support-compat:28.0.0] /Users/pairin/.gradle/caches/transforms-1/files-1.1/support-compat-28.0.0.aar/738e2c9c8362170ba78b985ce358de53/AndroidManifest.xml:22:5-94
+MERGED from [com.android.support:versionedparcelable:28.0.0] /Users/pairin/.gradle/caches/transforms-1/files-1.1/versionedparcelable-28.0.0.aar/957cb3bccecdc4e4615920aaaaede9f9/AndroidManifest.xml:22:5-23:19
+MERGED from [com.android.support:versionedparcelable:28.0.0] /Users/pairin/.gradle/caches/transforms-1/files-1.1/versionedparcelable-28.0.0.aar/957cb3bccecdc4e4615920aaaaede9f9/AndroidManifest.xml:22:5-23:19
 	android:appComponentFactory
-		ADDED from [com.android.support:support-compat:28.0.0] /Users/Logic/.gradle/caches/transforms-1/files-1.1/support-compat-28.0.0.aar/fb3f84424559cd6db034b94aaa7aa23f/AndroidManifest.xml:22:18-91
+		ADDED from [com.android.support:support-compat:28.0.0] /Users/pairin/.gradle/caches/transforms-1/files-1.1/support-compat-28.0.0.aar/738e2c9c8362170ba78b985ce358de53/AndroidManifest.xml:22:18-91
 	android:supportsRtl
-		ADDED from /Users/Logic/Documents/Projects/GitHub/android-chat-frontend/ChatApplication/app/src/main/AndroidManifest.xml:10:9-35
+		ADDED from /Users/pairin/Projects/android-chat-frontend/ChatApplication/app/src/main/AndroidManifest.xml:10:9-35
 	android:label
-		ADDED from /Users/Logic/Documents/Projects/GitHub/android-chat-frontend/ChatApplication/app/src/main/AndroidManifest.xml:8:9-41
+		ADDED from /Users/pairin/Projects/android-chat-frontend/ChatApplication/app/src/main/AndroidManifest.xml:8:9-41
 	android:roundIcon
-		ADDED from /Users/Logic/Documents/Projects/GitHub/android-chat-frontend/ChatApplication/app/src/main/AndroidManifest.xml:9:9-54
+		ADDED from /Users/pairin/Projects/android-chat-frontend/ChatApplication/app/src/main/AndroidManifest.xml:9:9-54
 	android:icon
-		ADDED from /Users/Logic/Documents/Projects/GitHub/android-chat-frontend/ChatApplication/app/src/main/AndroidManifest.xml:7:9-43
+		ADDED from /Users/pairin/Projects/android-chat-frontend/ChatApplication/app/src/main/AndroidManifest.xml:7:9-43
 	android:allowBackup
-		ADDED from /Users/Logic/Documents/Projects/GitHub/android-chat-frontend/ChatApplication/app/src/main/AndroidManifest.xml:6:9-35
+		ADDED from /Users/pairin/Projects/android-chat-frontend/ChatApplication/app/src/main/AndroidManifest.xml:6:9-35
 	android:theme
-		ADDED from /Users/Logic/Documents/Projects/GitHub/android-chat-frontend/ChatApplication/app/src/main/AndroidManifest.xml:11:9-40
+		ADDED from /Users/pairin/Projects/android-chat-frontend/ChatApplication/app/src/main/AndroidManifest.xml:11:9-40
 activity#com.example.logic.chatapplication.LoginActivity
-ADDED from /Users/Logic/Documents/Projects/GitHub/android-chat-frontend/ChatApplication/app/src/main/AndroidManifest.xml:12:9-18:20
+ADDED from /Users/pairin/Projects/android-chat-frontend/ChatApplication/app/src/main/AndroidManifest.xml:12:9-18:20
 	android:name
-		ADDED from /Users/Logic/Documents/Projects/GitHub/android-chat-frontend/ChatApplication/app/src/main/AndroidManifest.xml:12:19-48
+		ADDED from /Users/pairin/Projects/android-chat-frontend/ChatApplication/app/src/main/AndroidManifest.xml:12:19-48
 intent-filter#action:name:android.intent.action.MAIN+category:name:android.intent.category.LAUNCHER
-ADDED from /Users/Logic/Documents/Projects/GitHub/android-chat-frontend/ChatApplication/app/src/main/AndroidManifest.xml:13:13-17:29
+ADDED from /Users/pairin/Projects/android-chat-frontend/ChatApplication/app/src/main/AndroidManifest.xml:13:13-17:29
 action#android.intent.action.MAIN
-ADDED from /Users/Logic/Documents/Projects/GitHub/android-chat-frontend/ChatApplication/app/src/main/AndroidManifest.xml:14:17-69
+ADDED from /Users/pairin/Projects/android-chat-frontend/ChatApplication/app/src/main/AndroidManifest.xml:14:17-69
 	android:name
-		ADDED from /Users/Logic/Documents/Projects/GitHub/android-chat-frontend/ChatApplication/app/src/main/AndroidManifest.xml:14:25-66
+		ADDED from /Users/pairin/Projects/android-chat-frontend/ChatApplication/app/src/main/AndroidManifest.xml:14:25-66
 category#android.intent.category.LAUNCHER
-ADDED from /Users/Logic/Documents/Projects/GitHub/android-chat-frontend/ChatApplication/app/src/main/AndroidManifest.xml:16:17-77
+ADDED from /Users/pairin/Projects/android-chat-frontend/ChatApplication/app/src/main/AndroidManifest.xml:16:17-77
 	android:name
-		ADDED from /Users/Logic/Documents/Projects/GitHub/android-chat-frontend/ChatApplication/app/src/main/AndroidManifest.xml:16:27-74
+		ADDED from /Users/pairin/Projects/android-chat-frontend/ChatApplication/app/src/main/AndroidManifest.xml:16:27-74
 activity#com.example.logic.chatapplication.SignUpActivity
-ADDED from /Users/Logic/Documents/Projects/GitHub/android-chat-frontend/ChatApplication/app/src/main/AndroidManifest.xml:19:9-61
+ADDED from /Users/pairin/Projects/android-chat-frontend/ChatApplication/app/src/main/AndroidManifest.xml:19:9-61
 	android:name
-		ADDED from /Users/Logic/Documents/Projects/GitHub/android-chat-frontend/ChatApplication/app/src/main/AndroidManifest.xml:19:19-49
+		ADDED from /Users/pairin/Projects/android-chat-frontend/ChatApplication/app/src/main/AndroidManifest.xml:19:19-49
 uses-sdk
-INJECTED from /Users/Logic/Documents/Projects/GitHub/android-chat-frontend/ChatApplication/app/src/main/AndroidManifest.xml reason: use-sdk injection requested
-INJECTED from /Users/Logic/Documents/Projects/GitHub/android-chat-frontend/ChatApplication/app/src/main/AndroidManifest.xml
-INJECTED from /Users/Logic/Documents/Projects/GitHub/android-chat-frontend/ChatApplication/app/src/main/AndroidManifest.xml
-MERGED from [com.android.support:appcompat-v7:28.0.0] /Users/Logic/.gradle/caches/transforms-1/files-1.1/appcompat-v7-28.0.0.aar/0300cfee4ec2229699c89bb28b84adc2/AndroidManifest.xml:20:5-44
-MERGED from [com.android.support:appcompat-v7:28.0.0] /Users/Logic/.gradle/caches/transforms-1/files-1.1/appcompat-v7-28.0.0.aar/0300cfee4ec2229699c89bb28b84adc2/AndroidManifest.xml:20:5-44
-MERGED from [com.android.support.constraint:constraint-layout:1.1.3] /Users/Logic/.gradle/caches/transforms-1/files-1.1/constraint-layout-1.1.3.aar/8df5edd1542514c47199ce9ec4de0360/AndroidManifest.xml:5:5-7:41
-MERGED from [com.android.support.constraint:constraint-layout:1.1.3] /Users/Logic/.gradle/caches/transforms-1/files-1.1/constraint-layout-1.1.3.aar/8df5edd1542514c47199ce9ec4de0360/AndroidManifest.xml:5:5-7:41
-MERGED from [com.android.support:support-fragment:28.0.0] /Users/Logic/.gradle/caches/transforms-1/files-1.1/support-fragment-28.0.0.aar/4263445d062326a11c7b0f69c0f2dbb3/AndroidManifest.xml:20:5-44
-MERGED from [com.android.support:support-fragment:28.0.0] /Users/Logic/.gradle/caches/transforms-1/files-1.1/support-fragment-28.0.0.aar/4263445d062326a11c7b0f69c0f2dbb3/AndroidManifest.xml:20:5-44
-MERGED from [com.android.support:animated-vector-drawable:28.0.0] /Users/Logic/.gradle/caches/transforms-1/files-1.1/animated-vector-drawable-28.0.0.aar/b1ce93552800c844183cdc9ff24eeb5b/AndroidManifest.xml:20:5-44
-MERGED from [com.android.support:animated-vector-drawable:28.0.0] /Users/Logic/.gradle/caches/transforms-1/files-1.1/animated-vector-drawable-28.0.0.aar/b1ce93552800c844183cdc9ff24eeb5b/AndroidManifest.xml:20:5-44
-MERGED from [com.android.support:support-core-ui:28.0.0] /Users/Logic/.gradle/caches/transforms-1/files-1.1/support-core-ui-28.0.0.aar/152cdfdc86cb9d2c219d5c07e59c5b3f/AndroidManifest.xml:20:5-44
-MERGED from [com.android.support:support-core-ui:28.0.0] /Users/Logic/.gradle/caches/transforms-1/files-1.1/support-core-ui-28.0.0.aar/152cdfdc86cb9d2c219d5c07e59c5b3f/AndroidManifest.xml:20:5-44
-MERGED from [com.android.support:support-core-utils:28.0.0] /Users/Logic/.gradle/caches/transforms-1/files-1.1/support-core-utils-28.0.0.aar/75c93ae9b05240501fa3388c00cfe529/AndroidManifest.xml:20:5-44
-MERGED from [com.android.support:support-core-utils:28.0.0] /Users/Logic/.gradle/caches/transforms-1/files-1.1/support-core-utils-28.0.0.aar/75c93ae9b05240501fa3388c00cfe529/AndroidManifest.xml:20:5-44
-MERGED from [com.android.support:support-vector-drawable:28.0.0] /Users/Logic/.gradle/caches/transforms-1/files-1.1/support-vector-drawable-28.0.0.aar/d2bce11e92e1c18533db774505bdf604/AndroidManifest.xml:20:5-44
-MERGED from [com.android.support:support-vector-drawable:28.0.0] /Users/Logic/.gradle/caches/transforms-1/files-1.1/support-vector-drawable-28.0.0.aar/d2bce11e92e1c18533db774505bdf604/AndroidManifest.xml:20:5-44
-MERGED from [com.android.support:loader:28.0.0] /Users/Logic/.gradle/caches/transforms-1/files-1.1/loader-28.0.0.aar/d1fe2bf59619037ae9500871fea7579a/AndroidManifest.xml:20:5-44
-MERGED from [com.android.support:loader:28.0.0] /Users/Logic/.gradle/caches/transforms-1/files-1.1/loader-28.0.0.aar/d1fe2bf59619037ae9500871fea7579a/AndroidManifest.xml:20:5-44
-MERGED from [com.android.support:viewpager:28.0.0] /Users/Logic/.gradle/caches/transforms-1/files-1.1/viewpager-28.0.0.aar/01532de274de37b86468c0dfddf9d0a7/AndroidManifest.xml:20:5-44
-MERGED from [com.android.support:viewpager:28.0.0] /Users/Logic/.gradle/caches/transforms-1/files-1.1/viewpager-28.0.0.aar/01532de274de37b86468c0dfddf9d0a7/AndroidManifest.xml:20:5-44
-MERGED from [com.android.support:coordinatorlayout:28.0.0] /Users/Logic/.gradle/caches/transforms-1/files-1.1/coordinatorlayout-28.0.0.aar/45c9c11e33d79302ffd8b807eb929e3c/AndroidManifest.xml:20:5-44
-MERGED from [com.android.support:coordinatorlayout:28.0.0] /Users/Logic/.gradle/caches/transforms-1/files-1.1/coordinatorlayout-28.0.0.aar/45c9c11e33d79302ffd8b807eb929e3c/AndroidManifest.xml:20:5-44
-MERGED from [com.android.support:drawerlayout:28.0.0] /Users/Logic/.gradle/caches/transforms-1/files-1.1/drawerlayout-28.0.0.aar/dc748af1aa801a1314d8ef78477dc97b/AndroidManifest.xml:20:5-44
-MERGED from [com.android.support:drawerlayout:28.0.0] /Users/Logic/.gradle/caches/transforms-1/files-1.1/drawerlayout-28.0.0.aar/dc748af1aa801a1314d8ef78477dc97b/AndroidManifest.xml:20:5-44
-MERGED from [com.android.support:slidingpanelayout:28.0.0] /Users/Logic/.gradle/caches/transforms-1/files-1.1/slidingpanelayout-28.0.0.aar/efa498f039ca2d3c6ee52df6267b5591/AndroidManifest.xml:20:5-44
-MERGED from [com.android.support:slidingpanelayout:28.0.0] /Users/Logic/.gradle/caches/transforms-1/files-1.1/slidingpanelayout-28.0.0.aar/efa498f039ca2d3c6ee52df6267b5591/AndroidManifest.xml:20:5-44
-MERGED from [com.android.support:customview:28.0.0] /Users/Logic/.gradle/caches/transforms-1/files-1.1/customview-28.0.0.aar/446dcf71773bd2ea57fb69577ffac6ac/AndroidManifest.xml:20:5-44
-MERGED from [com.android.support:customview:28.0.0] /Users/Logic/.gradle/caches/transforms-1/files-1.1/customview-28.0.0.aar/446dcf71773bd2ea57fb69577ffac6ac/AndroidManifest.xml:20:5-44
-MERGED from [com.android.support:swiperefreshlayout:28.0.0] /Users/Logic/.gradle/caches/transforms-1/files-1.1/swiperefreshlayout-28.0.0.aar/a0f2d9ac59d0ecd331b9fbb5405fd5dd/AndroidManifest.xml:20:5-44
-MERGED from [com.android.support:swiperefreshlayout:28.0.0] /Users/Logic/.gradle/caches/transforms-1/files-1.1/swiperefreshlayout-28.0.0.aar/a0f2d9ac59d0ecd331b9fbb5405fd5dd/AndroidManifest.xml:20:5-44
-MERGED from [com.android.support:asynclayoutinflater:28.0.0] /Users/Logic/.gradle/caches/transforms-1/files-1.1/asynclayoutinflater-28.0.0.aar/6affa267ee4d58e18d25e1c91aa988c4/AndroidManifest.xml:20:5-44
-MERGED from [com.android.support:asynclayoutinflater:28.0.0] /Users/Logic/.gradle/caches/transforms-1/files-1.1/asynclayoutinflater-28.0.0.aar/6affa267ee4d58e18d25e1c91aa988c4/AndroidManifest.xml:20:5-44
-MERGED from [com.android.support:support-compat:28.0.0] /Users/Logic/.gradle/caches/transforms-1/files-1.1/support-compat-28.0.0.aar/fb3f84424559cd6db034b94aaa7aa23f/AndroidManifest.xml:20:5-44
-MERGED from [com.android.support:support-compat:28.0.0] /Users/Logic/.gradle/caches/transforms-1/files-1.1/support-compat-28.0.0.aar/fb3f84424559cd6db034b94aaa7aa23f/AndroidManifest.xml:20:5-44
-MERGED from [com.android.support:versionedparcelable:28.0.0] /Users/Logic/.gradle/caches/transforms-1/files-1.1/versionedparcelable-28.0.0.aar/d38c85f5907a5e95486b98803a908270/AndroidManifest.xml:20:5-44
-MERGED from [com.android.support:versionedparcelable:28.0.0] /Users/Logic/.gradle/caches/transforms-1/files-1.1/versionedparcelable-28.0.0.aar/d38c85f5907a5e95486b98803a908270/AndroidManifest.xml:20:5-44
-MERGED from [com.android.support:cursoradapter:28.0.0] /Users/Logic/.gradle/caches/transforms-1/files-1.1/cursoradapter-28.0.0.aar/6d41643db2c62d041638f4b982c560ce/AndroidManifest.xml:20:5-44
-MERGED from [com.android.support:cursoradapter:28.0.0] /Users/Logic/.gradle/caches/transforms-1/files-1.1/cursoradapter-28.0.0.aar/6d41643db2c62d041638f4b982c560ce/AndroidManifest.xml:20:5-44
-MERGED from [android.arch.lifecycle:runtime:1.1.1] /Users/Logic/.gradle/caches/transforms-1/files-1.1/runtime-1.1.1.aar/038806590e3d84c5f1f9b200e580b093/AndroidManifest.xml:20:5-44
-MERGED from [android.arch.lifecycle:runtime:1.1.1] /Users/Logic/.gradle/caches/transforms-1/files-1.1/runtime-1.1.1.aar/038806590e3d84c5f1f9b200e580b093/AndroidManifest.xml:20:5-44
-MERGED from [com.android.support:documentfile:28.0.0] /Users/Logic/.gradle/caches/transforms-1/files-1.1/documentfile-28.0.0.aar/88a180f8b629795f5019bea431190f1b/AndroidManifest.xml:20:5-44
-MERGED from [com.android.support:documentfile:28.0.0] /Users/Logic/.gradle/caches/transforms-1/files-1.1/documentfile-28.0.0.aar/88a180f8b629795f5019bea431190f1b/AndroidManifest.xml:20:5-44
-MERGED from [com.android.support:localbroadcastmanager:28.0.0] /Users/Logic/.gradle/caches/transforms-1/files-1.1/localbroadcastmanager-28.0.0.aar/bea1d55c650e23911fa00d33402a1a87/AndroidManifest.xml:20:5-44
-MERGED from [com.android.support:localbroadcastmanager:28.0.0] /Users/Logic/.gradle/caches/transforms-1/files-1.1/localbroadcastmanager-28.0.0.aar/bea1d55c650e23911fa00d33402a1a87/AndroidManifest.xml:20:5-44
-MERGED from [com.android.support:print:28.0.0] /Users/Logic/.gradle/caches/transforms-1/files-1.1/print-28.0.0.aar/20dbef087046e2df300d950e199129fa/AndroidManifest.xml:20:5-44
-MERGED from [com.android.support:print:28.0.0] /Users/Logic/.gradle/caches/transforms-1/files-1.1/print-28.0.0.aar/20dbef087046e2df300d950e199129fa/AndroidManifest.xml:20:5-44
-MERGED from [android.arch.lifecycle:viewmodel:1.1.1] /Users/Logic/.gradle/caches/transforms-1/files-1.1/viewmodel-1.1.1.aar/0000e212a9198bcacc4a8924dae6c7d9/AndroidManifest.xml:20:5-44
-MERGED from [android.arch.lifecycle:viewmodel:1.1.1] /Users/Logic/.gradle/caches/transforms-1/files-1.1/viewmodel-1.1.1.aar/0000e212a9198bcacc4a8924dae6c7d9/AndroidManifest.xml:20:5-44
-MERGED from [android.arch.lifecycle:livedata:1.1.1] /Users/Logic/.gradle/caches/transforms-1/files-1.1/livedata-1.1.1.aar/3cef032f8e6a5ebdc039148a69b84295/AndroidManifest.xml:20:5-44
-MERGED from [android.arch.lifecycle:livedata:1.1.1] /Users/Logic/.gradle/caches/transforms-1/files-1.1/livedata-1.1.1.aar/3cef032f8e6a5ebdc039148a69b84295/AndroidManifest.xml:20:5-44
-MERGED from [android.arch.lifecycle:livedata-core:1.1.1] /Users/Logic/.gradle/caches/transforms-1/files-1.1/livedata-core-1.1.1.aar/80f8d3e2a9e879046d7e311dab5f607c/AndroidManifest.xml:20:5-44
-MERGED from [android.arch.lifecycle:livedata-core:1.1.1] /Users/Logic/.gradle/caches/transforms-1/files-1.1/livedata-core-1.1.1.aar/80f8d3e2a9e879046d7e311dab5f607c/AndroidManifest.xml:20:5-44
-MERGED from [android.arch.core:runtime:1.1.1] /Users/Logic/.gradle/caches/transforms-1/files-1.1/runtime-1.1.1.aar/cb327daabfd8931c555f164f7114c928/AndroidManifest.xml:20:5-44
-MERGED from [android.arch.core:runtime:1.1.1] /Users/Logic/.gradle/caches/transforms-1/files-1.1/runtime-1.1.1.aar/cb327daabfd8931c555f164f7114c928/AndroidManifest.xml:20:5-44
-MERGED from [com.android.support:interpolator:28.0.0] /Users/Logic/.gradle/caches/transforms-1/files-1.1/interpolator-28.0.0.aar/eaa0e6af433f67028766533409f1bc0b/AndroidManifest.xml:20:5-44
-MERGED from [com.android.support:interpolator:28.0.0] /Users/Logic/.gradle/caches/transforms-1/files-1.1/interpolator-28.0.0.aar/eaa0e6af433f67028766533409f1bc0b/AndroidManifest.xml:20:5-44
-INJECTED from /Users/Logic/Documents/Projects/GitHub/android-chat-frontend/ChatApplication/app/src/main/AndroidManifest.xml
-INJECTED from /Users/Logic/Documents/Projects/GitHub/android-chat-frontend/ChatApplication/app/src/main/AndroidManifest.xml
+INJECTED from /Users/pairin/Projects/android-chat-frontend/ChatApplication/app/src/main/AndroidManifest.xml reason: use-sdk injection requested
+INJECTED from /Users/pairin/Projects/android-chat-frontend/ChatApplication/app/src/main/AndroidManifest.xml
+INJECTED from /Users/pairin/Projects/android-chat-frontend/ChatApplication/app/src/main/AndroidManifest.xml
+MERGED from [com.android.support:appcompat-v7:28.0.0] /Users/pairin/.gradle/caches/transforms-1/files-1.1/appcompat-v7-28.0.0.aar/8e3a9260e47585f07678abc883fc213c/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:appcompat-v7:28.0.0] /Users/pairin/.gradle/caches/transforms-1/files-1.1/appcompat-v7-28.0.0.aar/8e3a9260e47585f07678abc883fc213c/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support.constraint:constraint-layout:1.1.3] /Users/pairin/.gradle/caches/transforms-1/files-1.1/constraint-layout-1.1.3.aar/61327f2433abf69f3f3090e47662df09/AndroidManifest.xml:5:5-7:41
+MERGED from [com.android.support.constraint:constraint-layout:1.1.3] /Users/pairin/.gradle/caches/transforms-1/files-1.1/constraint-layout-1.1.3.aar/61327f2433abf69f3f3090e47662df09/AndroidManifest.xml:5:5-7:41
+MERGED from [com.android.support:support-fragment:28.0.0] /Users/pairin/.gradle/caches/transforms-1/files-1.1/support-fragment-28.0.0.aar/32eeb6ded220d1b0d969ef909a0e09ac/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:support-fragment:28.0.0] /Users/pairin/.gradle/caches/transforms-1/files-1.1/support-fragment-28.0.0.aar/32eeb6ded220d1b0d969ef909a0e09ac/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:animated-vector-drawable:28.0.0] /Users/pairin/.gradle/caches/transforms-1/files-1.1/animated-vector-drawable-28.0.0.aar/19f7bfa40a5a17578c9de83f6095fe0a/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:animated-vector-drawable:28.0.0] /Users/pairin/.gradle/caches/transforms-1/files-1.1/animated-vector-drawable-28.0.0.aar/19f7bfa40a5a17578c9de83f6095fe0a/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:support-core-ui:28.0.0] /Users/pairin/.gradle/caches/transforms-1/files-1.1/support-core-ui-28.0.0.aar/d2a05b5cc53e45198bcc5592a10b9f6b/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:support-core-ui:28.0.0] /Users/pairin/.gradle/caches/transforms-1/files-1.1/support-core-ui-28.0.0.aar/d2a05b5cc53e45198bcc5592a10b9f6b/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:support-core-utils:28.0.0] /Users/pairin/.gradle/caches/transforms-1/files-1.1/support-core-utils-28.0.0.aar/d14d1af7985abe55e6349c7e675b6ad3/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:support-core-utils:28.0.0] /Users/pairin/.gradle/caches/transforms-1/files-1.1/support-core-utils-28.0.0.aar/d14d1af7985abe55e6349c7e675b6ad3/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:support-vector-drawable:28.0.0] /Users/pairin/.gradle/caches/transforms-1/files-1.1/support-vector-drawable-28.0.0.aar/f1e5aeeb38c7e0f93f862723fbd5630c/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:support-vector-drawable:28.0.0] /Users/pairin/.gradle/caches/transforms-1/files-1.1/support-vector-drawable-28.0.0.aar/f1e5aeeb38c7e0f93f862723fbd5630c/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:loader:28.0.0] /Users/pairin/.gradle/caches/transforms-1/files-1.1/loader-28.0.0.aar/a244ea22482a23aa05de17a8e86f396c/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:loader:28.0.0] /Users/pairin/.gradle/caches/transforms-1/files-1.1/loader-28.0.0.aar/a244ea22482a23aa05de17a8e86f396c/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:viewpager:28.0.0] /Users/pairin/.gradle/caches/transforms-1/files-1.1/viewpager-28.0.0.aar/2f1069c75d3105d317593d0574dd6f54/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:viewpager:28.0.0] /Users/pairin/.gradle/caches/transforms-1/files-1.1/viewpager-28.0.0.aar/2f1069c75d3105d317593d0574dd6f54/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:coordinatorlayout:28.0.0] /Users/pairin/.gradle/caches/transforms-1/files-1.1/coordinatorlayout-28.0.0.aar/8932d5765ac774d5bbb68adc8003a7e2/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:coordinatorlayout:28.0.0] /Users/pairin/.gradle/caches/transforms-1/files-1.1/coordinatorlayout-28.0.0.aar/8932d5765ac774d5bbb68adc8003a7e2/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:drawerlayout:28.0.0] /Users/pairin/.gradle/caches/transforms-1/files-1.1/drawerlayout-28.0.0.aar/17d774a98a9a64dfc32570b2a3978dca/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:drawerlayout:28.0.0] /Users/pairin/.gradle/caches/transforms-1/files-1.1/drawerlayout-28.0.0.aar/17d774a98a9a64dfc32570b2a3978dca/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:slidingpanelayout:28.0.0] /Users/pairin/.gradle/caches/transforms-1/files-1.1/slidingpanelayout-28.0.0.aar/03e49417192e7ce02ca17a5146b8d310/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:slidingpanelayout:28.0.0] /Users/pairin/.gradle/caches/transforms-1/files-1.1/slidingpanelayout-28.0.0.aar/03e49417192e7ce02ca17a5146b8d310/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:customview:28.0.0] /Users/pairin/.gradle/caches/transforms-1/files-1.1/customview-28.0.0.aar/4a16937b4fa838b9e20b48f9170adac2/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:customview:28.0.0] /Users/pairin/.gradle/caches/transforms-1/files-1.1/customview-28.0.0.aar/4a16937b4fa838b9e20b48f9170adac2/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:swiperefreshlayout:28.0.0] /Users/pairin/.gradle/caches/transforms-1/files-1.1/swiperefreshlayout-28.0.0.aar/66ee6d2514822c3e00ef456b879f83f0/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:swiperefreshlayout:28.0.0] /Users/pairin/.gradle/caches/transforms-1/files-1.1/swiperefreshlayout-28.0.0.aar/66ee6d2514822c3e00ef456b879f83f0/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:asynclayoutinflater:28.0.0] /Users/pairin/.gradle/caches/transforms-1/files-1.1/asynclayoutinflater-28.0.0.aar/0a715a2d78afee89a8714144e29aa28d/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:asynclayoutinflater:28.0.0] /Users/pairin/.gradle/caches/transforms-1/files-1.1/asynclayoutinflater-28.0.0.aar/0a715a2d78afee89a8714144e29aa28d/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:support-compat:28.0.0] /Users/pairin/.gradle/caches/transforms-1/files-1.1/support-compat-28.0.0.aar/738e2c9c8362170ba78b985ce358de53/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:support-compat:28.0.0] /Users/pairin/.gradle/caches/transforms-1/files-1.1/support-compat-28.0.0.aar/738e2c9c8362170ba78b985ce358de53/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:versionedparcelable:28.0.0] /Users/pairin/.gradle/caches/transforms-1/files-1.1/versionedparcelable-28.0.0.aar/957cb3bccecdc4e4615920aaaaede9f9/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:versionedparcelable:28.0.0] /Users/pairin/.gradle/caches/transforms-1/files-1.1/versionedparcelable-28.0.0.aar/957cb3bccecdc4e4615920aaaaede9f9/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:cursoradapter:28.0.0] /Users/pairin/.gradle/caches/transforms-1/files-1.1/cursoradapter-28.0.0.aar/850afa0987e9be3f80e6fcec52ace5e2/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:cursoradapter:28.0.0] /Users/pairin/.gradle/caches/transforms-1/files-1.1/cursoradapter-28.0.0.aar/850afa0987e9be3f80e6fcec52ace5e2/AndroidManifest.xml:20:5-44
+MERGED from [android.arch.lifecycle:runtime:1.1.1] /Users/pairin/.gradle/caches/transforms-1/files-1.1/runtime-1.1.1.aar/d5eec37a0c1f9373e1294a9a9773f265/AndroidManifest.xml:20:5-44
+MERGED from [android.arch.lifecycle:runtime:1.1.1] /Users/pairin/.gradle/caches/transforms-1/files-1.1/runtime-1.1.1.aar/d5eec37a0c1f9373e1294a9a9773f265/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:documentfile:28.0.0] /Users/pairin/.gradle/caches/transforms-1/files-1.1/documentfile-28.0.0.aar/802de9592565dcf679828a12212e0140/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:documentfile:28.0.0] /Users/pairin/.gradle/caches/transforms-1/files-1.1/documentfile-28.0.0.aar/802de9592565dcf679828a12212e0140/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:localbroadcastmanager:28.0.0] /Users/pairin/.gradle/caches/transforms-1/files-1.1/localbroadcastmanager-28.0.0.aar/cdd1f58ee3cbb434d7f32133ae80f23d/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:localbroadcastmanager:28.0.0] /Users/pairin/.gradle/caches/transforms-1/files-1.1/localbroadcastmanager-28.0.0.aar/cdd1f58ee3cbb434d7f32133ae80f23d/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:print:28.0.0] /Users/pairin/.gradle/caches/transforms-1/files-1.1/print-28.0.0.aar/0f720d032da5f5e840112fa3c559a147/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:print:28.0.0] /Users/pairin/.gradle/caches/transforms-1/files-1.1/print-28.0.0.aar/0f720d032da5f5e840112fa3c559a147/AndroidManifest.xml:20:5-44
+MERGED from [android.arch.lifecycle:viewmodel:1.1.1] /Users/pairin/.gradle/caches/transforms-1/files-1.1/viewmodel-1.1.1.aar/354a650b44365b85391eac81a1d3f0ae/AndroidManifest.xml:20:5-44
+MERGED from [android.arch.lifecycle:viewmodel:1.1.1] /Users/pairin/.gradle/caches/transforms-1/files-1.1/viewmodel-1.1.1.aar/354a650b44365b85391eac81a1d3f0ae/AndroidManifest.xml:20:5-44
+MERGED from [android.arch.lifecycle:livedata:1.1.1] /Users/pairin/.gradle/caches/transforms-1/files-1.1/livedata-1.1.1.aar/2ee8acf9bf2532c5208d46bd7861967f/AndroidManifest.xml:20:5-44
+MERGED from [android.arch.lifecycle:livedata:1.1.1] /Users/pairin/.gradle/caches/transforms-1/files-1.1/livedata-1.1.1.aar/2ee8acf9bf2532c5208d46bd7861967f/AndroidManifest.xml:20:5-44
+MERGED from [android.arch.lifecycle:livedata-core:1.1.1] /Users/pairin/.gradle/caches/transforms-1/files-1.1/livedata-core-1.1.1.aar/43eb10a5d129c7b78675e12eb3ccf7c2/AndroidManifest.xml:20:5-44
+MERGED from [android.arch.lifecycle:livedata-core:1.1.1] /Users/pairin/.gradle/caches/transforms-1/files-1.1/livedata-core-1.1.1.aar/43eb10a5d129c7b78675e12eb3ccf7c2/AndroidManifest.xml:20:5-44
+MERGED from [android.arch.core:runtime:1.1.1] /Users/pairin/.gradle/caches/transforms-1/files-1.1/runtime-1.1.1.aar/eb239fbadc262a0ab0b922df66b2fde0/AndroidManifest.xml:20:5-44
+MERGED from [android.arch.core:runtime:1.1.1] /Users/pairin/.gradle/caches/transforms-1/files-1.1/runtime-1.1.1.aar/eb239fbadc262a0ab0b922df66b2fde0/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:interpolator:28.0.0] /Users/pairin/.gradle/caches/transforms-1/files-1.1/interpolator-28.0.0.aar/f7529c6e5e7c52021d26b24376e3c934/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:interpolator:28.0.0] /Users/pairin/.gradle/caches/transforms-1/files-1.1/interpolator-28.0.0.aar/f7529c6e5e7c52021d26b24376e3c934/AndroidManifest.xml:20:5-44
+INJECTED from /Users/pairin/Projects/android-chat-frontend/ChatApplication/app/src/main/AndroidManifest.xml
+INJECTED from /Users/pairin/Projects/android-chat-frontend/ChatApplication/app/src/main/AndroidManifest.xml
 	android:targetSdkVersion
-		INJECTED from /Users/Logic/Documents/Projects/GitHub/android-chat-frontend/ChatApplication/app/src/main/AndroidManifest.xml
-		ADDED from /Users/Logic/Documents/Projects/GitHub/android-chat-frontend/ChatApplication/app/src/main/AndroidManifest.xml
-		INJECTED from /Users/Logic/Documents/Projects/GitHub/android-chat-frontend/ChatApplication/app/src/main/AndroidManifest.xml
+		INJECTED from /Users/pairin/Projects/android-chat-frontend/ChatApplication/app/src/main/AndroidManifest.xml
+		ADDED from /Users/pairin/Projects/android-chat-frontend/ChatApplication/app/src/main/AndroidManifest.xml
+		INJECTED from /Users/pairin/Projects/android-chat-frontend/ChatApplication/app/src/main/AndroidManifest.xml
 	android:minSdkVersion
-		INJECTED from /Users/Logic/Documents/Projects/GitHub/android-chat-frontend/ChatApplication/app/src/main/AndroidManifest.xml
-		ADDED from /Users/Logic/Documents/Projects/GitHub/android-chat-frontend/ChatApplication/app/src/main/AndroidManifest.xml
-		INJECTED from /Users/Logic/Documents/Projects/GitHub/android-chat-frontend/ChatApplication/app/src/main/AndroidManifest.xml
+		INJECTED from /Users/pairin/Projects/android-chat-frontend/ChatApplication/app/src/main/AndroidManifest.xml
+		ADDED from /Users/pairin/Projects/android-chat-frontend/ChatApplication/app/src/main/AndroidManifest.xml
+		INJECTED from /Users/pairin/Projects/android-chat-frontend/ChatApplication/app/src/main/AndroidManifest.xml
