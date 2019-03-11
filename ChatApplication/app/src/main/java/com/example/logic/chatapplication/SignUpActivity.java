@@ -25,7 +25,7 @@ public class SignUpActivity extends AppCompatActivity {
         back.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
-                if(name_text != null || pass_text != null){
+                if(name_text.getText().toString().matches("") || pass_text.getText().toString().matches("")){
                     Toast.makeText(SignUpActivity.this, "Must enter both username and password:  Back to Login",Toast.LENGTH_SHORT).show();
                 }
                 Intent intent = new Intent(SignUpActivity.this, LoginActivity.class);
