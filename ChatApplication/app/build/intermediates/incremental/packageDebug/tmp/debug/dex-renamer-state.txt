@@ -1,4 +1,4 @@
-#Mon Mar 04 21:25:26 EST 2019
+#Sun Mar 10 21:40:28 EDT 2019
 base.0=/Users/Logic/Documents/Projects/GitHub/android-chat-frontend/ChatApplication/app/build/intermediates/transforms/dexMerger/debug/0
 path.0=classes.dex
 renamed.0=classes.dex

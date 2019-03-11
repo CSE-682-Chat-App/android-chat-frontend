@@ -6,10 +6,11 @@ import android.os.Bundle;
 import android.view.View;
 import android.widget.Button;
 import android.widget.EditText;
+import android.widget.Toast;
 
 public class SignUpActivity extends AppCompatActivity {
-    Button back, email_update, name_update, set_pass;
-    private EditText email_text, name_text, pass_text;
+    Button back;
+    private EditText name_text, pass_text;
 
 
     @Override
@@ -17,11 +18,16 @@ public class SignUpActivity extends AppCompatActivity {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_sign_up);
 
-        back = (Button) findViewById(R.id.back);
+        name_text = (EditText) findViewById(R.id.uname_edittext);
+        pass_text = (EditText) findViewById(R.id.password_edittext);
 
+        back = (Button) findViewById(R.id.back);
         back.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
+                if(name_text != null || pass_text != null){
+                    Toast.makeText(SignUpActivity.this, "Must enter both username and password:  Back to Login",Toast.LENGTH_SHORT).show();
+                }
                 Intent intent = new Intent(SignUpActivity.this, LoginActivity.class);
                 startActivity(intent);
             }
