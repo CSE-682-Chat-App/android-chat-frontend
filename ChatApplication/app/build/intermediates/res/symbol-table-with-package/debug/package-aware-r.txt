@@ -628,8 +628,11 @@ drawable abc_textfield_search_activated_mtrl_alpha
 drawable abc_textfield_search_default_mtrl_alpha
 drawable abc_textfield_search_material
 drawable abc_vector_test
+drawable circle
 drawable ic_launcher_background
 drawable ic_launcher_foreground
+drawable ic_send
+drawable my_message
 drawable notification_action_background
 drawable notification_bg
 drawable notification_bg_low
@@ -642,6 +645,7 @@ drawable notification_template_icon_bg
 drawable notification_template_icon_low_bg
 drawable notification_tile_bg
 drawable notify_panel_notification_icon_bg
+drawable their_message
 drawable tooltip_frame_dark
 drawable tooltip_frame_light
 id ALT
@@ -674,6 +678,7 @@ id alertTitle
 id all
 id always
 id async
+id avatar
 id back
 id barrier
 id beginning
@@ -698,13 +703,11 @@ id default_activity_button
 id dimensions
 id direct
 id disableHome
-id dname_edittext
-id dname_update
-id dname_update_button
+<<<<<<< HEAD
+id editText
+=======
+>>>>>>> origin/master
 id edit_query
-id email_edittext
-id email_update
-id email_update_button
 id end
 id expand_activities_button
 id expanded_menu
@@ -733,8 +736,11 @@ id list_item
 id login
 id login_tv
 id message
+id message_body
+id messages_view
 id middle
 id multiply
+id name
 id never
 id none
 id normal
@@ -744,7 +750,6 @@ id notification_main_column_container
 id packed
 id parent
 id parentPanel
-id pass_set_button
 id password
 id password_edittext
 id percent
@@ -801,6 +806,8 @@ id titleDividerNoCustom
 id title_template
 id top
 id topPanel
+id uname_edittext
+id uname_update
 id uniform
 id up
 id useLogo
@@ -841,8 +848,10 @@ layout abc_search_dropdown_item_icons_2line
 layout abc_search_view
 layout abc_select_dialog_material
 layout abc_tooltip
+layout activity_general_chat
 layout activity_login
 layout activity_sign_up
+layout my_message
 layout notification_action
 layout notification_action_tombstone
 layout notification_template_custom_big
@@ -853,6 +862,7 @@ layout select_dialog_item_material
 layout select_dialog_multichoice_material
 layout select_dialog_singlechoice_material
 layout support_simple_spinner_dropdown_item
+layout their_message
 mipmap ic_launcher
 mipmap ic_launcher_round
 string abc_action_bar_home_description

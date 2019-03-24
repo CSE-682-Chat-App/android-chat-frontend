@@ -1,1 +1,5 @@
-[{"name":"main","index":0,"scopes":["EXTERNAL_LIBRARIES","PROJECT","SUB_PROJECTS","MAIN_SPLIT"],"types":["DEX"],"format":"DIRECTORY","present":true}]
+<<<<<<< HEAD
+[{"name":"main","index":0,"scopes":["SUB_PROJECTS","PROJECT","EXTERNAL_LIBRARIES","MAIN_SPLIT"],"types":["DEX"],"format":"DIRECTORY","present":true}]
+=======
+[{"name":"main","index":0,"scopes":["EXTERNAL_LIBRARIES","SUB_PROJECTS","PROJECT","MAIN_SPLIT"],"types":["DEX"],"format":"DIRECTORY","present":true}]
+>>>>>>> origin/master
