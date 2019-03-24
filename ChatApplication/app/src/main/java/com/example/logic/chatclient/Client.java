@@ -2,6 +2,8 @@ package com.example.logic.chatclient;
 
 import android.util.Log;
 
+import com.example.logic.chatapplication.BuildConfig;
+
 import java.net.URI;
 import java.net.URISyntaxException;
 import java.util.ArrayList;
@@ -33,7 +35,7 @@ public final class Client extends WebSocketClient {
 
     private static URI initURI() {
         try {
-            return new URI("ws://10.0.0.179:8080/socket");
+            return new URI(BuildConfig.SERVER_URI);
         } catch (Exception e) {
             return null;
         }
