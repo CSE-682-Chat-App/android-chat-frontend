@@ -153,7 +153,10 @@ public final class R {
         public static final int time = 0x7f070090;
         public static final int title = 0x7f070091;
         public static final int top = 0x7f070094;
+<<<<<<< HEAD
 >>>>>>> origin/master
+=======
+>>>>>>> master
     }
     public static final class integer {
         private integer() {}

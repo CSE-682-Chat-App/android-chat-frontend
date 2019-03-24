@@ -45,10 +45,13 @@
     <LinearLayout
         android:id="@+id/set_password"
 <<<<<<< HEAD
+<<<<<<< HEAD
         app:layout_constraintTop_toBottomOf="@id/uname_update"
         android:orientation="horizontal"
 =======
 >>>>>>> origin/master
+=======
+>>>>>>> master
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:orientation="horizontal"
@@ -62,14 +65,20 @@
             android:layout_weight="2"
             android:background="@android:drawable/edit_text"
 <<<<<<< HEAD
+<<<<<<< HEAD
             android:inputType="textPassword"
             android:hint="Password" />
 =======
+=======
+>>>>>>> master
             android:fontFamily="serif"
             android:hint="Password"
             android:inputType="textPassword" />
 
+<<<<<<< HEAD
 >>>>>>> origin/master
+=======
+>>>>>>> master
     </LinearLayout>
 
     <Button

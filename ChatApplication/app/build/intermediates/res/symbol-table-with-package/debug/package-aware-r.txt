@@ -704,9 +704,12 @@ id dimensions
 id direct
 id disableHome
 <<<<<<< HEAD
+<<<<<<< HEAD
 id editText
 =======
 >>>>>>> origin/master
+=======
+>>>>>>> master
 id edit_query
 id end
 id expand_activities_button

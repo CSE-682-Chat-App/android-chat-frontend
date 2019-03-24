@@ -130,7 +130,10 @@ public final class R {
         public static final int text2 = 0x7f07008c;
         public static final int time = 0x7f070090;
         public static final int title = 0x7f070091;
+<<<<<<< HEAD
 >>>>>>> origin/master
+=======
+>>>>>>> master
     }
     public static final class integer {
         private integer() {}

@@ -74,6 +74,7 @@ public final class R {
         private id() {}
 
 <<<<<<< HEAD
+<<<<<<< HEAD
         public static final int bottom = 0x7f070023;
         public static final int end = 0x7f070039;
         public static final int gone = 0x7f070040;
@@ -89,6 +90,8 @@ public final class R {
         public static final int top = 0x7f070099;
         public static final int wrap = 0x7f0700a2;
 =======
+=======
+>>>>>>> master
         public static final int bottom = 0x7f070022;
         public static final int end = 0x7f070037;
         public static final int gone = 0x7f07003e;
@@ -103,7 +106,10 @@ public final class R {
         public static final int start = 0x7f070084;
         public static final int top = 0x7f070094;
         public static final int wrap = 0x7f07009d;
+<<<<<<< HEAD
 >>>>>>> origin/master
+=======
+>>>>>>> master
     }
     public static final class styleable {
         private styleable() {}
