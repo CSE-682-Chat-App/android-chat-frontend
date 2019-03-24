@@ -1,11 +1,11 @@
 package com.example.logic.chatapplication;
 
-import android.support.v7.app.AppCompatActivity;
+import android.app.Activity;
 import android.os.Bundle;
 import android.view.View;
 import android.widget.EditText;
 
-public class GeneralChat extends AppCompatActivity {
+public class GeneralChat extends Activity {
     private EditText editText;
 
     @Override
