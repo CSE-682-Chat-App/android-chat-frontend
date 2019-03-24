@@ -1,14 +1,18 @@
 package com.example.logic.chatapplication;
 
-import android.support.v7.app.AppCompatActivity;
+import android.app.Activity;
 import android.os.Bundle;
 import android.view.View;
 import android.widget.EditText;
 
+<<<<<<< HEAD
 import com.scaledrone.lib.RoomListener;
 import com.scaledrone.lib.Scaledrone;
 
 public class GeneralChat extends AppCompatActivity {
+=======
+public class GeneralChat extends Activity {
+>>>>>>> master
     private EditText editText;
     private String channelID = "YvhtE4Zgw6895woe";
     private Scaledrone scaledrone;
