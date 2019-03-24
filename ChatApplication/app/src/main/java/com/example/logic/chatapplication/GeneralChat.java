@@ -5,8 +5,14 @@ import android.os.Bundle;
 import android.view.View;
 import android.widget.EditText;
 
+import com.scaledrone.lib.RoomListener;
+import com.scaledrone.lib.Scaledrone;
+
 public class GeneralChat extends AppCompatActivity {
     private EditText editText;
+    private String channelID = "YvhtE4Zgw6895woe";
+    private Scaledrone scaledrone;
+    private String roomName = "general-room";
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
@@ -19,9 +25,12 @@ public class GeneralChat extends AppCompatActivity {
     public void sendMessage(View view) {
         String message = editText.getText().toString();
         if (message.length() > 0) {
-
+            scaledrone.publish("general-room", message);
+            editText.getText().clear();
         }
     }
+
+
 /*
     @Override
     public void onMessage(Room room, final JsonNode json, final Member member) {
