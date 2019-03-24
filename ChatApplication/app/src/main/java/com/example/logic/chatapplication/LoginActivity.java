@@ -43,14 +43,7 @@ public class LoginActivity extends Activity {
                 finish();
             }
         });
-        try {
-            chatClient = Client.getClient(new URI("ws://10.0.0.179:8080/socket"));
-        } catch (URISyntaxException e) {
-            Log.e("WS", e.getMessage());
-        } catch (Exception e) {
-            Log.e("WS", e.getMessage());
-        }
-
+        chatClient = Client.getClient();
 
         chatClient.OnPath("/auth_response", (Message m) -> runOnUiThread(()-> {
             HandleAuthChanged(m);

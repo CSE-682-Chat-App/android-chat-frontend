@@ -3,6 +3,7 @@ package com.example.logic.chatclient;
 import android.util.Log;
 
 import java.net.URI;
+import java.net.URISyntaxException;
 import java.util.ArrayList;
 import java.util.HashMap;
 import java.util.Map;
@@ -17,9 +18,11 @@ public final class Client extends WebSocketClient {
     private static Client _instance;
     private Boolean connected = false;
 
-    public static Client getClient(URI serverURI) {
+    private URI uri;
+
+    public static Client getClient() {
         if (_instance == null) {
-            _instance = new Client(serverURI);
+            _instance = new Client();
             _instance.connect();
         }
         return _instance;
@@ -27,6 +30,19 @@ public final class Client extends WebSocketClient {
 
     private MessageProcessor messageProcessor;
     private MessageQueue messageQueue;
+
+    private static URI initURI() {
+        try {
+            return new URI("ws://10.0.0.179:8080/socket");
+        } catch (Exception e) {
+            return null;
+        }
+    }
+
+    private Client() {
+        super(initURI());
+        Init();
+    }
 
     private Client(URI serverUri , Draft draft ) {
         super( serverUri, draft );
