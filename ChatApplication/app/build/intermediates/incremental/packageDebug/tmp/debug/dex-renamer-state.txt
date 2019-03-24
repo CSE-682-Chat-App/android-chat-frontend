@@ -1,4 +1,12 @@
+<<<<<<< HEAD
+<<<<<<< HEAD
+#Sat Mar 23 20:04:17 EDT 2019
+=======
 #Sun Mar 10 21:46:37 EDT 2019
+>>>>>>> origin/master
+=======
+#Sun Mar 10 21:46:37 EDT 2019
+>>>>>>> master
 base.0=/Users/Logic/Documents/Projects/GitHub/android-chat-frontend/ChatApplication/app/build/intermediates/transforms/dexMerger/debug/0
 path.0=classes.dex
 renamed.0=classes.dex

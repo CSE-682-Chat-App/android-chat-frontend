@@ -39,6 +39,13 @@ public class LoginActivity extends AppCompatActivity {
             Toast.makeText(LoginActivity.this, "Enter both Email and Password",
                     Toast.LENGTH_SHORT).show();
         }
+        else {
+            if (user.getText().toString().matches("user") && pwd.getText().toString().matches("1234")) {
+                Intent intent1 = new Intent(LoginActivity.this, GeneralChat.class);
+                startActivity(intent1);
+            }
+        }
+
     }
 
 
