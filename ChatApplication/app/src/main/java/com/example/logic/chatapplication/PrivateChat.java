@@ -1,10 +1,10 @@
 package com.example.logic.chatapplication;
 
-import android.app.Activity;
 import android.content.Intent;
-import android.os.Bundle;
 import android.support.design.widget.NavigationView;
 import android.support.v4.widget.DrawerLayout;
+import android.support.v7.app.AppCompatActivity;
+import android.os.Bundle;
 import android.util.Log;
 import android.view.View;
 import android.widget.EditText;
@@ -13,16 +13,9 @@ import android.widget.Toast;
 
 import com.example.logic.chatclient.Client;
 import com.example.logic.chatclient.Message;
-import com.google.gson.Gson;
-import com.google.gson.reflect.TypeToken;
 
-import java.sql.Timestamp;
-import java.util.ArrayList;
-import java.util.HashMap;
-
-public class GeneralChat extends Activity {
+public class PrivateChat extends AppCompatActivity {
     private EditText editText;
-
     private Client chatClient;
     private MessageAdapter messageAdapter;
     private UIUser me;
@@ -31,7 +24,7 @@ public class GeneralChat extends Activity {
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
-        setContentView(R.layout.activity_general_chat);
+        setContentView(R.layout.activity_private_chat);
 
         messageAdapter = new MessageAdapter(this);
         drawerLayout = findViewById(R.id.drawer_layout);
@@ -44,14 +37,9 @@ public class GeneralChat extends Activity {
 
         chatClient = Client.getClient();
 
-        chatClient.OnPath("/user_response", (Message m) -> runOnUiThread(()->{
+        chatClient.OnPath("/user_reply", (Message m) -> runOnUiThread(()->{
             HandleUserReply(m);
         }));
-
-        chatClient.OnPath("/joined/general", (Message m) -> runOnUiThread(()->{
-            HandleChannelJoined(m);
-        }));
-
 
         chatClient.OnPath("/message/general", (Message m) -> runOnUiThread(()-> {
             HandleMessage(m);
@@ -62,6 +50,7 @@ public class GeneralChat extends Activity {
         }));
 
         getUser();
+        joinChannel();
     }
 
     @Override
@@ -78,7 +67,6 @@ public class GeneralChat extends Activity {
     }
 
     protected void joinChannel() {
-
         Message m = new Message();
         m.path = "/join";
         m.data.put("channel", "general");
@@ -94,24 +82,13 @@ public class GeneralChat extends Activity {
 
     public void HandleUserReply(Message m) {
         me = new UIUser(m.GetString("user"));
-        messageAdapter.setUser(me);
-
-        Log.i("WS", "HERE");
-        joinChannel();
-    }
-
-    public void HandleChannelJoined(Message m) {
-        Gson g = new Gson();
-        ArrayList<UIMessage> messages = g.fromJson(m.GetString("messages"),new TypeToken<ArrayList<UIMessage>>() {}.getType());
-
-        messages.forEach((message)->messageAdapter.add(message));
     }
 
     public void HandleError(Message m) {
         if (!m.GetBoolean("authorized", true)) {
-            Toast.makeText(GeneralChat.this, m.GetString("message"),Toast.LENGTH_SHORT).show();
+            Toast.makeText(PrivateChat.this, m.GetString("message"),Toast.LENGTH_SHORT).show();
             if (m.GetBoolean("success")) {
-                Intent intent1 = new Intent(GeneralChat.this, LoginActivity.class);
+                Intent intent1 = new Intent(PrivateChat.this, GeneralChat.class);
                 startActivity(intent1);
             }
         }
@@ -133,10 +110,10 @@ public class GeneralChat extends Activity {
 
         editText.setText("");
 
-        UIMessage message = new UIMessage();
+        UIMessage message = new UIMessage("{}");
         message.sender = me;
         message.message = m.GetString("message");
-        message.timestamp = new Timestamp(System.currentTimeMillis()).toString();
+        message.belongsToCurrentUser = true;
 
         messageAdapter.add(message);
 
