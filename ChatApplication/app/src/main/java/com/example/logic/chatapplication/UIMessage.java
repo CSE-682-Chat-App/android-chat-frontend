@@ -1,8 +1,11 @@
 package com.example.logic.chatapplication;
 
+import android.icu.text.SimpleDateFormat;
 import android.util.Log;
 
 import com.google.gson.Gson;
+
+import java.sql.Timestamp;
 
 public class UIMessage {
     public String message;
@@ -17,11 +20,6 @@ public class UIMessage {
 
     public UIMessage(String messageData) {
         parseData(messageData);
-    }
-
-    public UIMessage(String messageData, boolean belongsToCurrentUser) {
-        parseData(messageData);
-        this.belongsToCurrentUser = belongsToCurrentUser;
     }
 
     public void parseData(String messageData) {
@@ -39,6 +37,11 @@ public class UIMessage {
 
     public UIUser getSender() {
         return sender;
+    }
+
+    public String getMessageTime() {
+        Timestamp time = Timestamp.valueOf(timestamp);
+        return new SimpleDateFormat("MM-dd-yyyy hh:mm:ss").format(time);
     }
 
     public boolean isBelongsToCurrentUser() {

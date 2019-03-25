@@ -11,7 +11,11 @@ import android.widget.Toast;
 
 import com.example.logic.chatclient.Client;
 import com.example.logic.chatclient.Message;
+import com.google.gson.Gson;
+import com.google.gson.reflect.TypeToken;
 
+import java.sql.Timestamp;
+import java.util.ArrayList;
 import java.util.HashMap;
 
 public class GeneralChat extends Activity {
@@ -35,9 +39,14 @@ public class GeneralChat extends Activity {
 
         chatClient = Client.getClient();
 
-        chatClient.OnPath("/user_reply", (Message m) -> runOnUiThread(()->{
+        chatClient.OnPath("/user_response", (Message m) -> runOnUiThread(()->{
             HandleUserReply(m);
         }));
+
+        chatClient.OnPath("/joined/general", (Message m) -> runOnUiThread(()->{
+            HandleChannelJoined(m);
+        }));
+
 
         chatClient.OnPath("/message/general", (Message m) -> runOnUiThread(()-> {
             HandleMessage(m);
@@ -48,7 +57,6 @@ public class GeneralChat extends Activity {
         }));
 
         getUser();
-        joinChannel();
     }
 
     @Override
@@ -65,6 +73,7 @@ public class GeneralChat extends Activity {
     }
 
     protected void joinChannel() {
+
         Message m = new Message();
         m.path = "/join";
         m.data.put("channel", "general");
@@ -80,6 +89,17 @@ public class GeneralChat extends Activity {
 
     public void HandleUserReply(Message m) {
         me = new UIUser(m.GetString("user"));
+        messageAdapter.setUser(me);
+
+        Log.i("WS", "HERE");
+        joinChannel();
+    }
+
+    public void HandleChannelJoined(Message m) {
+        Gson g = new Gson();
+        ArrayList<UIMessage> messages = g.fromJson(m.GetString("messages"),new TypeToken<ArrayList<UIMessage>>() {}.getType());
+
+        messages.forEach((message)->messageAdapter.add(message));
     }
 
     public void HandleError(Message m) {
@@ -108,10 +128,10 @@ public class GeneralChat extends Activity {
 
         editText.setText("");
 
-        UIMessage message = new UIMessage("{}");
+        UIMessage message = new UIMessage();
         message.sender = me;
         message.message = m.GetString("message");
-        message.belongsToCurrentUser = true;
+        message.timestamp = new Timestamp(System.currentTimeMillis()).toString();
 
         messageAdapter.add(message);
 

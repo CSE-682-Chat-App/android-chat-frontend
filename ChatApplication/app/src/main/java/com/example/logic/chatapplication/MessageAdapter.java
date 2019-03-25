@@ -18,9 +18,16 @@ public class MessageAdapter extends BaseAdapter {
     List<UIMessage> messages = new ArrayList<>();
     Context context;
 
+    protected UIUser user;
     public MessageAdapter(Context context) {
         this.context = context;
     }
+
+    public void setUser(UIUser user) {
+        this.user = user;
+        notifyDataSetChanged();
+    }
+
 
     public void add(UIMessage message) {
         this.messages.add(message);
@@ -49,25 +56,31 @@ public class MessageAdapter extends BaseAdapter {
         LayoutInflater messageInflater = (LayoutInflater) context.getSystemService(Activity.LAYOUT_INFLATER_SERVICE);
         UIMessage message = messages.get(i);
 
-        if (message.isBelongsToCurrentUser()) { // this message was sent by us so let's create a basic chat bubble on the right
+        if (message.getSender().isUser(user)) { // this message was sent by us so let's create a basic chat bubble on the right
             convertView = messageInflater.inflate(R.layout.my_message, null);
             holder.messageBody = (TextView) convertView.findViewById(R.id.message_body);
+            holder.messageTime = (TextView) convertView.findViewById(R.id.message_time);
             convertView.setTag(holder);
             holder.messageBody.setText(message.getText());
+            holder.messageTime.setText(message.getMessageTime());
         } else if (message.getSender().isSystem()) {
             convertView = messageInflater.inflate(R.layout.system_message, null);
             holder.messageBody = (TextView) convertView.findViewById(R.id.message_body);
+            holder.messageTime = (TextView) convertView.findViewById(R.id.message_time);
             convertView.setTag(holder);
             holder.messageBody.setText(message.getText());
+            holder.messageTime.setText(message.getMessageTime());
         } else { // this message was sent by someone else so let's create an advanced chat bubble on the left
             convertView = messageInflater.inflate(R.layout.their_message, null);
             holder.avatar = (View) convertView.findViewById(R.id.avatar);
             holder.name = (TextView) convertView.findViewById(R.id.name);
             holder.messageBody = (TextView) convertView.findViewById(R.id.message_body);
+            holder.messageTime = (TextView) convertView.findViewById(R.id.message_time);
             convertView.setTag(holder);
 
             holder.name.setText(message.getSender().getName());
             holder.messageBody.setText(message.getText());
+            holder.messageTime.setText(message.getMessageTime());
             GradientDrawable drawable = (GradientDrawable) holder.avatar.getBackground();
             drawable.setColor(Color.parseColor("blue"));
         }
@@ -81,5 +94,6 @@ class MessageViewHolder {
     public View avatar;
     public TextView name;
     public TextView messageBody;
+    public TextView messageTime;
 }
 

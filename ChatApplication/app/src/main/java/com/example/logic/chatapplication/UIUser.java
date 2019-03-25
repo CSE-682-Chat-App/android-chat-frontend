@@ -27,4 +27,11 @@ public class UIUser {
     public boolean isSystem() {
         return this.uuid.equals("0");
     }
+
+    public boolean isUser(UIUser user) {
+        if (user == null) {
+            return false;
+        }
+        return this.uuid.equals(user.uuid);
+    }
 }
