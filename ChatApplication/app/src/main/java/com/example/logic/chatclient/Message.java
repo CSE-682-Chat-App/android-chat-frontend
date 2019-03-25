@@ -9,6 +9,11 @@ public class Message {
     public String path;
     public HashMap<String,String> data;
 
+    public Message() {
+        data = new HashMap<String,String>();
+    }
+
+
     public static Message FromJson(String json) {
         Gson g = new Gson();
         return g.fromJson(json, Message.class);
