@@ -1,50 +1,120 @@
 package com.example.logic.chatapplication;
 
 import android.app.Activity;
+import android.content.Intent;
 import android.os.Bundle;
+import android.util.Log;
 import android.view.View;
 import android.widget.EditText;
+import android.widget.ListView;
+import android.widget.Toast;
+
+import com.example.logic.chatclient.Client;
+import com.example.logic.chatclient.Message;
+
+import java.util.HashMap;
 
 public class GeneralChat extends Activity {
     private EditText editText;
+
+    private Client chatClient;
+    private MessageAdapter messageAdapter;
+    private UIUser me;
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_general_chat);
 
+        messageAdapter = new MessageAdapter(this);
+
+        ListView listView = (ListView) findViewById(R.id.messages_view);
+        listView.setAdapter(messageAdapter);
+
         editText = (EditText) findViewById(R.id.editText);
+
+        chatClient = Client.getClient();
+
+        chatClient.OnPath("/user_reply", (Message m) -> runOnUiThread(()->{
+            HandleUserReply(m);
+        }));
+
+        chatClient.OnPath("/message/general", (Message m) -> runOnUiThread(()-> {
+            HandleMessage(m);
+        }));
+
+        chatClient.OnPath("/error", (Message m) -> runOnUiThread(()->{
+            HandleError(m);
+        }));
+
+        getUser();
+        joinChannel();
+    }
+
+    @Override
+    protected void onDestroy() {
+        super.onDestroy();
+
+        leaveChannel();
+    }
+
+    protected void getUser() {
+        Message m = new Message();
+        m.path = "/user";
+        chatClient.Send(m);
+    }
+
+    protected void joinChannel() {
+        Message m = new Message();
+        m.path = "/join";
+        m.data.put("channel", "general");
+        chatClient.Send(m);
+    }
+
+    protected void leaveChannel() {
+        Message m = new Message();
+        m.path = "/leave";
+        m.data.put("channel", "general");
+        chatClient.Send(m);
+    }
+
+    public void HandleUserReply(Message m) {
+        me = new UIUser(m.GetString("user"));
+    }
+
+    public void HandleError(Message m) {
+        if (!m.GetBoolean("authorized", true)) {
+            Toast.makeText(GeneralChat.this, m.GetString("message"),Toast.LENGTH_SHORT).show();
+            if (m.GetBoolean("success")) {
+                Intent intent1 = new Intent(GeneralChat.this, LoginActivity.class);
+                startActivity(intent1);
+            }
+        }
+    }
+
+    public void HandleMessage(Message m) {
+        Log.i("Message", m.ToJson());
+
+        UIMessage m2 = new UIMessage(m.GetString("message"));
+
+        messageAdapter.add(m2);
     }
 
     public void sendMessage(View view) {
-        String message = editText.getText().toString();
-        if (message.length() > 0) {
+        Message m = new Message();
+        m.path = "/message";
+        m.data.put("message", editText.getText().toString());
+        m.data.put("channel", "general");
 
-        }
+        editText.setText("");
+
+        UIMessage message = new UIMessage("{}");
+        message.sender = me;
+        message.message = m.GetString("message");
+        message.belongsToCurrentUser = true;
+
+        messageAdapter.add(message);
+
+        chatClient.Send(m);
     }
-/*
-    @Override
-    public void onMessage(Room room, final JsonNode json, final Member member) {
-        // To transform the raw JsonNode into a POJO we can use an ObjectMapper
-        final ObjectMapper mapper = new ObjectMapper();
-        try {
-            // member.clientData is a MemberData object, let's parse it as such
-            final MemberData data = mapper.treeToValue(receivedMessage.getMember().getClientData(), MemberData.class);
-            // if the clientID of the message sender is the same as our's it was sent by us
-            boolean belongsToCurrentUser = receivedMessage.getClientID().equals(scaledrone.getClientID());
-            // since the message body is a simple string in our case we can use json.asText() to parse it as such
-            // if it was instead an object we could use a similar pattern to data parsing
-            final Message message = new Message(receivedMessage.getData().asText(), data, belongsToCurrentUser);
-            runOnUiThread(new Runnable() {
-                @Override
-                public void run() {
-                    messageAdapter.add(message);
-                    // scroll the ListView to the last added element
-                    messagesView.setSelection(messagesView.getCount() - 1);
-                }
-            });
-        } catch (JsonProcessingException e) {
-            e.printStackTrace();
-        }
-    } */
 }
