@@ -1,10 +1,10 @@
 package com.example.logic.chatapplication;
 
-import android.app.Activity;
 import android.content.Intent;
-import android.os.Bundle;
 import android.support.design.widget.NavigationView;
 import android.support.v4.widget.DrawerLayout;
+import android.support.v7.app.AppCompatActivity;
+import android.os.Bundle;
 import android.util.Log;
 import android.view.View;
 import android.widget.EditText;
@@ -14,11 +14,8 @@ import android.widget.Toast;
 import com.example.logic.chatclient.Client;
 import com.example.logic.chatclient.Message;
 
-import java.util.HashMap;
-
-public class GeneralChat extends Activity {
+public class PrivateChat extends AppCompatActivity {
     private EditText editText;
-
     private Client chatClient;
     private MessageAdapter messageAdapter;
     private UIUser me;
@@ -27,7 +24,7 @@ public class GeneralChat extends Activity {
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
-        setContentView(R.layout.activity_general_chat);
+        setContentView(R.layout.activity_private_chat);
 
         messageAdapter = new MessageAdapter(this);
         drawerLayout = findViewById(R.id.drawer_layout);
@@ -89,9 +86,9 @@ public class GeneralChat extends Activity {
 
     public void HandleError(Message m) {
         if (!m.GetBoolean("authorized", true)) {
-            Toast.makeText(GeneralChat.this, m.GetString("message"),Toast.LENGTH_SHORT).show();
+            Toast.makeText(PrivateChat.this, m.GetString("message"),Toast.LENGTH_SHORT).show();
             if (m.GetBoolean("success")) {
-                Intent intent1 = new Intent(GeneralChat.this, LoginActivity.class);
+                Intent intent1 = new Intent(PrivateChat.this, GeneralChat.class);
                 startActivity(intent1);
             }
         }
