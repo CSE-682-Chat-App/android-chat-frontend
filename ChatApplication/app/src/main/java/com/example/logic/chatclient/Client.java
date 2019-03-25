@@ -35,7 +35,7 @@ public final class Client extends WebSocketClient {
 
     private static URI initURI() {
         try {
-            return new URI(BuildConfig.SERVER_URI);
+            return new URI("ws://192.168.1.152:8080/socket");
         } catch (Exception e) {
             return null;
         }
