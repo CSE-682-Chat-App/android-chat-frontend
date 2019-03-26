@@ -34,4 +34,10 @@ public class UIUser {
         }
         return this.uuid.equals(user.uuid);
     }
+
+    @Override
+    public String toString() {
+        Gson g = new Gson();
+        return g.toJson(this);
+    }
 }

@@ -6,6 +6,8 @@ import android.os.Bundle;
 import android.support.design.widget.NavigationView;
 import android.support.v4.widget.DrawerLayout;
 import android.util.Log;
+import android.view.Menu;
+import android.view.MenuItem;
 import android.view.View;
 import android.widget.EditText;
 import android.widget.ListView;
@@ -20,13 +22,15 @@ import java.sql.Timestamp;
 import java.util.ArrayList;
 import java.util.HashMap;
 
-public class GeneralChat extends Activity {
+public class GeneralChat extends Activity  implements NavigationView.OnNavigationItemSelectedListener{
     private EditText editText;
 
     private Client chatClient;
     private MessageAdapter messageAdapter;
     private UIUser me;
-    private DrawerLayout drawerLayout;
+    private Menu userList;
+
+    private HashMap<String,MenuItem> menuItems = new HashMap<String,MenuItem>();
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
@@ -34,8 +38,6 @@ public class GeneralChat extends Activity {
         setContentView(R.layout.activity_general_chat);
 
         messageAdapter = new MessageAdapter(this);
-        drawerLayout = findViewById(R.id.drawer_layout);
-        NavigationView navigationView = findViewById(R.id.nav_view);
 
         ListView listView = (ListView) findViewById(R.id.messages_view);
         listView.setAdapter(messageAdapter);
@@ -61,7 +63,66 @@ public class GeneralChat extends Activity {
             HandleError(m);
         }));
 
+        chatClient.OnPath("/users", (Message m) -> runOnUiThread(()->{
+            HandleUsers(m);
+        }));
+
+        initNavigation();
+
+        getUsers();
         getUser();
+    }
+
+    protected void getUsers() {
+        Message m = new Message();
+        m.path = "/users";
+        chatClient.Send(m);
+    }
+
+    @Override
+    public boolean onNavigationItemSelected( MenuItem item) {
+        // Handle navigation view item clicks here.
+        switch (item.getItemId()) {
+            case R.id.general_chat:
+                return true;
+        }
+        return true;
+    }
+
+    protected void initNavigation() {
+        NavigationView navigationView = findViewById(R.id.nav_view);
+        navigationView.setNavigationItemSelectedListener(this);
+
+        Menu menu = navigationView.getMenu();
+        userList = menu.addSubMenu("Users");
+    }
+
+    public void HandleUsers(Message m) {
+        Gson g = new Gson();
+        ArrayList<UIUser> users = g.fromJson(m.GetString("users"),new TypeToken<ArrayList<UIUser>>() {}.getType());
+
+
+        users.forEach((user)->{
+            if (!menuItems.containsKey(user.uuid)) {
+                MenuItem item = userList.add(user.name);
+                item.setOnMenuItemClickListener((MenuItem i) -> HandleItemClicked(i, user));
+                menuItems.put(user.uuid, item);
+            }
+        });
+
+        NavigationView navigationView = findViewById(R.id.nav_view);
+        navigationView.invalidate();
+
+    }
+
+    protected boolean HandleItemClicked(MenuItem i, UIUser u) {
+        Intent intent = new Intent(this, PrivateChat.class);
+        EditText editText = (EditText) findViewById(R.id.editText);
+        String message = editText.getText().toString();
+        intent.putExtra("Me", me.toString());
+        intent.putExtra("User", u.toString());
+        startActivity(intent);
+        return true;
     }
 
     @Override

@@ -35,29 +35,14 @@ public final class Client extends WebSocketClient {
 
     private static URI initURI() {
         try {
-            return new URI("ws://192.168.1.152:8080/socket");
+            return new URI(BuildConfig.SERVER_URI);
         } catch (Exception e) {
             return null;
         }
     }
 
-    private Client() {
+    public Client() {
         super(initURI());
-        Init();
-    }
-
-    private Client(URI serverUri , Draft draft ) {
-        super( serverUri, draft );
-        Init();
-    }
-
-    private Client(URI serverURI) {
-        super( serverURI );
-        Init();
-    }
-
-    private Client(URI serverUri, Map<String, String> httpHeaders ) {
-        super(serverUri, httpHeaders);
         Init();
     }
 
@@ -108,6 +93,7 @@ public final class Client extends WebSocketClient {
 
     @Override
     public void onMessage( String message ) {
+        Log.i("Message", message);
         Message m = Message.FromJson(message);
         Handle(m);
     }
